@@ -1,0 +1,731 @@
+%apsrev4-2.bst 2019-01-14 (MD) hand-edited version of apsrev4-1.bst
+%Control: key (0)
+%Control: author (8) initials jnrlst
+%Control: editor formatted (1) identically to author
+%Control: production of article title (0) allowed
+%Control: page (0) single
+%Control: year (1) truncated
+%Control: production of eprint (0) enabled
+\begin{thebibliography}{59}%
+\makeatletter
+\providecommand \@ifxundefined [1]{%
+ \@ifx{#1\undefined}
+}%
+\providecommand \@ifnum [1]{%
+ \ifnum #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \@ifx [1]{%
+ \ifx #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \natexlab [1]{#1}%
+\providecommand \enquote  [1]{``#1''}%
+\providecommand \bibnamefont  [1]{#1}%
+\providecommand \bibfnamefont [1]{#1}%
+\providecommand \citenamefont [1]{#1}%
+\providecommand \href@noop [0]{\@secondoftwo}%
+\providecommand \href [0]{\begingroup \@sanitize@url \@href}%
+\providecommand \@href[1]{\@@startlink{#1}\@@href}%
+\providecommand \@@href[1]{\endgroup#1\@@endlink}%
+\providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\$12\catcode
+  `\&12\catcode `\#12\catcode `\^12\catcode `\_12\catcode `\%12\relax}%
+\providecommand \@@startlink[1]{}%
+\providecommand \@@endlink[0]{}%
+\providecommand \url  [0]{\begingroup\@sanitize@url \@url }%
+\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
+\providecommand \urlprefix  [0]{URL }%
+\providecommand \Eprint [0]{\href }%
+\providecommand \doibase [0]{https://doi.org/}%
+\providecommand \selectlanguage [0]{\@gobble}%
+\providecommand \bibinfo  [0]{\@secondoftwo}%
+\providecommand \bibfield  [0]{\@secondoftwo}%
+\providecommand \translation [1]{[#1]}%
+\providecommand \BibitemOpen [0]{}%
+\providecommand \bibitemStop [0]{}%
+\providecommand \bibitemNoStop [0]{.\EOS\space}%
+\providecommand \EOS [0]{\spacefactor3000\relax}%
+\providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
+\let\auto@bib@innerbib\@empty
+%</preamble>
+\bibitem [{\citenamefont {Metlitski}\ and\ \citenamefont
+  {Sachdev}(2010{\natexlab{a}})}]{metlsach1}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~A.}\ \bibnamefont
+  {Metlitski}}\ and\ \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Sachdev}},\ }\bibfield  {title} {\bibinfo {title} {Quantum phase transitions
+  of metals in two spatial dimensions. {I}. {I}sing-nematic order},\ }\href
+  {https://doi.org/10.1103/PhysRevB.82.075127} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {82}},\ \bibinfo
+  {pages} {075127} (\bibinfo {year} {2010}{\natexlab{a}})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Metlitski}\ and\ \citenamefont
+  {Sachdev}(2010{\natexlab{b}})}]{metlsach}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~A.}\ \bibnamefont
+  {Metlitski}}\ and\ \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Sachdev}},\ }\bibfield  {title} {\bibinfo {title} {Quantum phase transitions
+  of metals in two spatial dimensions. {II}. {S}pin density wave order},\
+  }\href {https://doi.org/10.1103/PhysRevB.82.075128} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {82}},\
+  \bibinfo {pages} {075128} (\bibinfo {year} {2010}{\natexlab{b}})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Chakravarty}\ \emph {et~al.}(1995)\citenamefont
+  {Chakravarty}, \citenamefont {Norton},\ and\ \citenamefont
+  {Sylju\aa{}sen}}]{olav}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Chakravarty}}, \bibinfo {author} {\bibfnamefont {R.~E.}\ \bibnamefont
+  {Norton}},\ and\ \bibinfo {author} {\bibfnamefont {O.~F.}\ \bibnamefont
+  {Sylju\aa{}sen}},\ }\bibfield  {title} {\bibinfo {title} {Transverse gauge
+  interactions and the vanquished {F}ermi liquid},\ }\href
+  {https://doi.org/10.1103/PhysRevLett.74.1423} {\bibfield  {journal} {\bibinfo
+   {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {74}},\ \bibinfo
+  {pages} {1423} (\bibinfo {year} {1995})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Dalidovich}\ and\ \citenamefont
+  {Lee}(2013)}]{Lee-Dalid}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Dalidovich}}\ and\ \bibinfo {author} {\bibfnamefont {S.-S.}\ \bibnamefont
+  {Lee}},\ }\bibfield  {title} {\bibinfo {title} {Perturbative non-{F}ermi
+  liquids from dimensional regularization},\ }\href
+  {https://doi.org/10.1103/PhysRevB.88.245106} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {88}},\ \bibinfo
+  {pages} {245106} (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Mandal}\ and\ \citenamefont
+  {Lee}(2015)}]{ips-uv-ir1}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {I.}~\bibnamefont
+  {Mandal}}\ and\ \bibinfo {author} {\bibfnamefont {S.-S.}\ \bibnamefont
+  {Lee}},\ }\bibfield  {title} {\bibinfo {title} {Ultraviolet/infrared mixing
+  in non-{F}ermi liquids},\ }\href {https://doi.org/10.1103/PhysRevB.92.035141}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo
+  {volume} {92}},\ \bibinfo {pages} {035141} (\bibinfo {year}
+  {2015})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Mandal}(2016{\natexlab{a}})}]{ips-uv-ir2}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {I.}~\bibnamefont
+  {Mandal}},\ }\bibfield  {title} {\bibinfo {title} {{UV/IR mixing in non-Fermi
+  liquids: Higher-loop corrections in different energy ranges}},\ }\href
+  {https://doi.org/10.1140/epjb/e2016-70509-4} {\bibfield  {journal} {\bibinfo
+  {journal} {Eur. Phys. J. B}\ }\textbf {\bibinfo {volume} {89}},\ \bibinfo
+  {pages} {278} (\bibinfo {year} {2016}{\natexlab{a}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Pimenov}\ \emph {et~al.}(2018)\citenamefont
+  {Pimenov}, \citenamefont {Mandal}, \citenamefont {Piazza},\ and\
+  \citenamefont {Punk}}]{ips-fflo}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Pimenov}}, \bibinfo {author} {\bibfnamefont {I.}~\bibnamefont {Mandal}},
+  \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Piazza}},\ and\ \bibinfo
+  {author} {\bibfnamefont {M.}~\bibnamefont {Punk}},\ }\bibfield  {title}
+  {\bibinfo {title} {Non-{F}ermi liquid at the {FFLO} quantum critical point},\
+  }\href {https://doi.org/10.1103/PhysRevB.98.024510} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {98}},\
+  \bibinfo {pages} {024510} (\bibinfo {year} {2018})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Mandal}(2020)}]{ips-nfl-u1}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {I.}~\bibnamefont
+  {Mandal}},\ }\bibfield  {title} {\bibinfo {title} {Critical {F}ermi surfaces
+  in generic dimensions arising from transverse gauge field interactions},\
+  }\href {https://doi.org/10.1103/PhysRevResearch.2.043277} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev. Research}\ }\textbf {\bibinfo
+  {volume} {2}},\ \bibinfo {pages} {043277} (\bibinfo {year}
+  {2020})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {S\'ykora}\ \emph {et~al.}(2018)\citenamefont
+  {S\'ykora}, \citenamefont {Holder},\ and\ \citenamefont {Metzner}}]{metzner}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {S\'ykora}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Holder}},\
+  and\ \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont {Metzner}},\
+  }\bibfield  {title} {\bibinfo {title} {Fluctuation effects at the onset of
+  the $2{k}_{F}$ density wave order with one pair of hot spots in
+  two-dimensional metals},\ }\href {https://doi.org/10.1103/PhysRevB.97.155159}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo
+  {volume} {97}},\ \bibinfo {pages} {155159} (\bibinfo {year}
+  {2018})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Mandal}(2024)}]{ips-2kf}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {I.}~\bibnamefont
+  {Mandal}},\ }\bibfield  {title} {\bibinfo {title} {{Stable non-Fermi liquid
+  fixed point at the onset of incommensurate 2$k_F$ charge density wave
+  order}},\ }\href {https://doi.org/10.1016/j.nuclphysb.2024.116586} {\bibfield
+   {journal} {\bibinfo  {journal} {Nucl. Phys. B}\ }\textbf {\bibinfo {volume}
+  {1005}},\ \bibinfo {pages} {116586} (\bibinfo {year} {2024})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Mandal}(2025)}]{ips-cavity}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {I.}~\bibnamefont
+  {Mandal}},\ }\bibfield  {title} {\bibinfo {title} {Induction of non-{F}ermi
+  liquids by critical cavity photons at the onset of superradiance},\ }\href
+  {https://doi.org/https://doi.org/10.1016/j.aop.2025.169925} {\bibfield
+  {journal} {\bibinfo  {journal} {Annals of Physics}\ }\textbf {\bibinfo
+  {volume} {474}},\ \bibinfo {pages} {169925} (\bibinfo {year}
+  {2025})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Mandal}\ and\ \citenamefont
+  {Fernandes}(2023)}]{ips-rafael}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {I.}~\bibnamefont
+  {Mandal}}\ and\ \bibinfo {author} {\bibfnamefont {R.~M.}\ \bibnamefont
+  {Fernandes}},\ }\bibfield  {title} {\bibinfo {title} {Valley-polarized
+  nematic order in twisted moir\'e systems: In-plane orbital magnetism and
+  crossover from non-{F}ermi liquid to {F}ermi liquid},\ }\href
+  {https://doi.org/10.1103/PhysRevB.107.125142} {\bibfield  {journal} {\bibinfo
+   {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {107}},\ \bibinfo
+  {pages} {125142} (\bibinfo {year} {2023})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Mandal}}(2025)}]{ips-moire-cdw}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {I.}~\bibnamefont
+  {{Mandal}}},\ }\bibfield  {title} {\bibinfo {title} {{Non-Fermi liquid
+  behaviour of CDW instabilities in fractionally-filled moir{\'e} flatbands}},\
+  }\href {https://doi.org/https://doi.org/10.1016/j.aop.2025.169925} {\bibfield
+   {journal} {\bibinfo  {journal} {Annals of Physics}\ }\textbf {\bibinfo
+  {volume} {474}},\ \bibinfo {pages} {169925} (\bibinfo {year}
+  {2025})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Eberlein}\ \emph {et~al.}(2016)\citenamefont
+  {Eberlein}, \citenamefont {Mandal},\ and\ \citenamefont
+  {Sachdev}}]{ips-subir}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Eberlein}}, \bibinfo {author} {\bibfnamefont {I.}~\bibnamefont {Mandal}},\
+  and\ \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Sachdev}},\
+  }\bibfield  {title} {\bibinfo {title} {Hyperscaling violation at the
+  {I}sing-nematic quantum critical point in two-dimensional metals},\ }\href
+  {https://doi.org/10.1103/PhysRevB.94.045133} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {94}},\ \bibinfo
+  {pages} {045133} (\bibinfo {year} {2016})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Mandal}(2017)}]{ips-c2}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {I.}~\bibnamefont
+  {Mandal}},\ }\bibfield  {title} {\bibinfo {title} {Scaling behaviour and
+  superconducting instability in anisotropic non-{F}ermi liquids},\ }\href
+  {https://doi.org/https://doi.org/10.1016/j.aop.2016.11.009} {\bibfield
+  {journal} {\bibinfo  {journal} {Annals of Physics}\ }\textbf {\bibinfo
+  {volume} {376}},\ \bibinfo {pages} {89 } (\bibinfo {year}
+  {2017})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Mandal}\ and\ \citenamefont
+  {Freire}(2021)}]{ips-hermann}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {I.}~\bibnamefont
+  {Mandal}}\ and\ \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Freire}},\ }\bibfield  {title} {\bibinfo {title} {Transport in the
+  non-{F}ermi liquid phase of isotropic {L}uttinger semimetals},\ }\href
+  {https://doi.org/10.1103/PhysRevB.103.195116} {\bibfield  {journal} {\bibinfo
+   {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {103}},\ \bibinfo
+  {pages} {195116} (\bibinfo {year} {2021})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Freire}\ and\ \citenamefont
+  {Mandal}(2021)}]{ips-hermann2}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Freire}}\ and\ \bibinfo {author} {\bibfnamefont {I.}~\bibnamefont
+  {Mandal}},\ }\bibfield  {title} {\bibinfo {title} {Thermoelectric and thermal
+  properties of the weakly disordered non-{F}ermi liquid phase of {L}uttinger
+  semimetals},\ }\href
+  {https://doi.org/https://doi.org/10.1016/j.physleta.2021.127470} {\bibfield
+  {journal} {\bibinfo  {journal} {Physics Letters A}\ }\textbf {\bibinfo
+  {volume} {407}},\ \bibinfo {pages} {127470} (\bibinfo {year}
+  {2021})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Mandal}\ and\ \citenamefont
+  {Freire}(2022)}]{ips-hermann3}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {I.}~\bibnamefont
+  {Mandal}}\ and\ \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Freire}},\ }\bibfield  {title} {\bibinfo {title} {Raman response and shear
+  viscosity in the non-{F}ermi liquid phase of {L}uttinger semimetals},\ }\href
+  {https://doi.org/10.1088/1361-648x/ac6785} {\bibfield  {journal} {\bibinfo
+  {journal} {Journal of Physics: Condensed Matter}\ }\textbf {\bibinfo {volume}
+  {34}},\ \bibinfo {pages} {275604} (\bibinfo {year} {2022})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Mandal}\ and\ \citenamefont
+  {Freire}(2024)}]{ips-hermann-review}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {I.}~\bibnamefont
+  {Mandal}}\ and\ \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Freire}},\ }\bibfield  {title} {\bibinfo {title} {{Transport properties in
+  non-Fermi liquid phases of nodal-point semimetals}},\ }\href
+  {https://doi.org/10.1088/1361-648X/ad665e} {\bibfield  {journal} {\bibinfo
+  {journal} {Journal of Physics: Condensed Matter}\ }\textbf {\bibinfo {volume}
+  {36}},\ \bibinfo {pages} {443002} (\bibinfo {year} {2024})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Chung}\ \emph {et~al.}(2013)\citenamefont {Chung},
+  \citenamefont {Mandal}, \citenamefont {Raghu},\ and\ \citenamefont
+  {Chakravarty}}]{ips2}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~B.}\ \bibnamefont
+  {Chung}}, \bibinfo {author} {\bibfnamefont {I.}~\bibnamefont {Mandal}},
+  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Raghu}},\ and\ \bibinfo
+  {author} {\bibfnamefont {S.}~\bibnamefont {Chakravarty}},\ }\bibfield
+  {title} {\bibinfo {title} {Higher angular momentum pairing from transverse
+  gauge interactions},\ }\href {https://doi.org/10.1103/PhysRevB.88.045127}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo
+  {volume} {88}},\ \bibinfo {pages} {045127} (\bibinfo {year}
+  {2013})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Mandal}(2016{\natexlab{b}})}]{ips-sc}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {I.}~\bibnamefont
+  {Mandal}},\ }\bibfield  {title} {\bibinfo {title} {Superconducting
+  instability in non-{F}ermi liquids},\ }\href
+  {https://doi.org/10.1103/PhysRevB.94.115138} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {94}},\ \bibinfo
+  {pages} {115138} (\bibinfo {year} {2016}{\natexlab{b}})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Wang}\ \emph {et~al.}(2014)\citenamefont {Wang},
+  \citenamefont {Mandal}, \citenamefont {Chung},\ and\ \citenamefont
+  {Chakravarty}}]{ips3}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Z.}~\bibnamefont
+  {Wang}}, \bibinfo {author} {\bibfnamefont {I.}~\bibnamefont {Mandal}},
+  \bibinfo {author} {\bibfnamefont {S.~B.}\ \bibnamefont {Chung}},\ and\
+  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Chakravarty}},\
+  }\bibfield  {title} {\bibinfo {title} {{Pairing in half-filled Landau
+  level}},\ }\href
+  {https://doi.org/http://dx.doi.org/10.1016/j.aop.2014.09.021} {\bibfield
+  {journal} {\bibinfo  {journal} {Annals of Physics}\ }\textbf {\bibinfo
+  {volume} {351}},\ \bibinfo {pages} {727 } (\bibinfo {year}
+  {2014})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Abrikosov}(1974)}]{Abrikosov}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~A.}\ \bibnamefont
+  {Abrikosov}},\ }\bibfield  {title} {\bibinfo {title} {Calculation of critical
+  indices for zero-gap semiconductors},\ }\href@noop {} {\bibfield  {journal}
+  {\bibinfo  {journal} {Sov. Phys.-JETP}\ }\textbf {\bibinfo {volume} {39}},\
+  \bibinfo {pages} {709} (\bibinfo {year} {1974})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Moon}\ \emph {et~al.}(2013)\citenamefont {Moon},
+  \citenamefont {Xu}, \citenamefont {Kim},\ and\ \citenamefont
+  {Balents}}]{moon-xu}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.-G.}\ \bibnamefont
+  {Moon}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Xu}}, \bibinfo
+  {author} {\bibfnamefont {Y.~B.}\ \bibnamefont {Kim}},\ and\ \bibinfo {author}
+  {\bibfnamefont {L.}~\bibnamefont {Balents}},\ }\bibfield  {title} {\bibinfo
+  {title} {Non-fermi-liquid and topological states with strong spin-orbit
+  coupling},\ }\href {https://doi.org/10.1103/PhysRevLett.111.206401}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf
+  {\bibinfo {volume} {111}},\ \bibinfo {pages} {206401} (\bibinfo {year}
+  {2013})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Nandkishore}\ and\ \citenamefont
+  {Parameswaran}(2017)}]{rahul-sid}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~M.}\ \bibnamefont
+  {Nandkishore}}\ and\ \bibinfo {author} {\bibfnamefont {S.~A.}\ \bibnamefont
+  {Parameswaran}},\ }\bibfield  {title} {\bibinfo {title} {Disorder-driven
+  destruction of a non-{F}ermi liquid semimetal studied by renormalization
+  group analysis},\ }\href {https://doi.org/10.1103/PhysRevB.95.205106}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo
+  {volume} {95}},\ \bibinfo {pages} {205106} (\bibinfo {year}
+  {2017})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Mandal}}\ and\ \citenamefont
+  {{Nandkishore}}(2018)}]{ips-rahul}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {I.}~\bibnamefont
+  {{Mandal}}}\ and\ \bibinfo {author} {\bibfnamefont {R.~M.}\ \bibnamefont
+  {{Nandkishore}}},\ }\bibfield  {title} {\bibinfo {title} {{Interplay of
+  Coulomb interactions and disorder in three-dimensional quadratic band
+  crossings without time-reversal symmetry and with unequal masses for
+  conduction and valence bands}},\ }\href
+  {https://doi.org/10.1103/PhysRevB.97.125121} {\bibfield  {journal} {\bibinfo
+  {journal} {\prb}\ }\textbf {\bibinfo {volume} {97}},\ \bibinfo {eid} {125121}
+  (\bibinfo {year} {2018})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Roy}\ \emph {et~al.}(2018)\citenamefont {Roy},
+  \citenamefont {Kennett}, \citenamefont {Yang},\ and\ \citenamefont
+  {Juri\ifmmode \check{c}\else \v{c}\fi{}i\ifmmode~\acute{c}\else
+  \'{c}\fi{}}}]{malcolm-bitan}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Roy}}, \bibinfo {author} {\bibfnamefont {M.~P.}\ \bibnamefont {Kennett}},
+  \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Yang}},\ and\ \bibinfo
+  {author} {\bibfnamefont {V.}~\bibnamefont {Juri\ifmmode \check{c}\else
+  \v{c}\fi{}i\ifmmode~\acute{c}\else \'{c}\fi{}}},\ }\bibfield  {title}
+  {\bibinfo {title} {From birefringent electrons to a marginal or non-{F}ermi
+  liquid of relativistic spin-$1/2$ fermions: {A}n emergent
+  superuniversality},\ }\href {https://doi.org/10.1103/PhysRevLett.121.157602}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf
+  {\bibinfo {volume} {121}},\ \bibinfo {pages} {157602} (\bibinfo {year}
+  {2018})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Mandal}(2021)}]{ips-birefringent}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {I.}~\bibnamefont
+  {Mandal}},\ }\bibfield  {title} {\bibinfo {title} {Robust marginal {F}ermi
+  liquid in birefringent semimetals},\ }\href
+  {https://doi.org/https://doi.org/10.1016/j.physleta.2021.127707} {\bibfield
+  {journal} {\bibinfo  {journal} {Physics Letters A}\ }\textbf {\bibinfo
+  {volume} {418}},\ \bibinfo {pages} {127707} (\bibinfo {year}
+  {2021})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Altshuler}\ \emph {et~al.}(1994)\citenamefont
+  {Altshuler}, \citenamefont {Ioffe},\ and\ \citenamefont
+  {Millis}}]{ALTSHULER}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.~L.}\ \bibnamefont
+  {Altshuler}}, \bibinfo {author} {\bibfnamefont {L.~B.}\ \bibnamefont
+  {Ioffe}},\ and\ \bibinfo {author} {\bibfnamefont {A.~J.}\ \bibnamefont
+  {Millis}},\ }\bibfield  {title} {\bibinfo {title} {Low-energy properties of
+  fermions with singular interactions},\ }\href
+  {https://doi.org/10.1103/PhysRevB.50.14048} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {50}},\ \bibinfo
+  {pages} {14048} (\bibinfo {year} {1994})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Polchinski}}(1994)}]{polchinski}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {{Polchinski}}},\ }\bibfield  {title} {\bibinfo {title} {{Low-energy dynamics
+  of the spinon-gauge system}},\ }\href
+  {https://doi.org/10.1016/0550-3213(94)90449-9} {\bibfield  {journal}
+  {\bibinfo  {journal} {Nuclear Physics B}\ }\textbf {\bibinfo {volume}
+  {422}},\ \bibinfo {pages} {617} (\bibinfo {year} {1994})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Kim}\ \emph {et~al.}(2008)\citenamefont {Kim},
+  \citenamefont {Lawler}, \citenamefont {Oreto}, \citenamefont {Sachdev},
+  \citenamefont {Fradkin},\ and\ \citenamefont {Kivelson}}]{ybkim}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.-A.}\ \bibnamefont
+  {Kim}}, \bibinfo {author} {\bibfnamefont {M.~J.}\ \bibnamefont {Lawler}},
+  \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Oreto}}, \bibinfo
+  {author} {\bibfnamefont {S.}~\bibnamefont {Sachdev}}, \bibinfo {author}
+  {\bibfnamefont {E.}~\bibnamefont {Fradkin}},\ and\ \bibinfo {author}
+  {\bibfnamefont {S.~A.}\ \bibnamefont {Kivelson}},\ }\bibfield  {title}
+  {\bibinfo {title} {Theory of the nodal nematic quantum phase transition in
+  superconductors},\ }\href {https://doi.org/10.1103/PhysRevB.77.184514}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo
+  {volume} {77}},\ \bibinfo {pages} {184514} (\bibinfo {year}
+  {2008})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Lee}(2009)}]{SSLee}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.-S.}\ \bibnamefont
+  {Lee}},\ }\bibfield  {title} {\bibinfo {title} {Low-energy effective theory
+  of {F}ermi surface coupled with {U}(1) gauge field in $2+1$ dimensions},\
+  }\href {https://doi.org/10.1103/PhysRevB.80.165102} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {80}},\
+  \bibinfo {pages} {165102} (\bibinfo {year} {2009})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Nayak}}\ and\ \citenamefont
+  {{Wilczek}}(1994)}]{nayak}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {{Nayak}}}\ and\ \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {{Wilczek}}},\ }\bibfield  {title} {\bibinfo {title} {{Renormalization group
+  approach to low temperature properties of a non-Fermi liquid metal}},\ }\href
+  {https://doi.org/10.1016/0550-3213(94)90158-9} {\bibfield  {journal}
+  {\bibinfo  {journal} {Nuclear Physics B}\ }\textbf {\bibinfo {volume}
+  {430}},\ \bibinfo {pages} {534} (\bibinfo {year} {1994})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Mross}\ \emph {et~al.}(2010)\citenamefont {Mross},
+  \citenamefont {McGreevy}, \citenamefont {Liu},\ and\ \citenamefont
+  {Senthil}}]{mross}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~F.}\ \bibnamefont
+  {Mross}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {McGreevy}},
+  \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Liu}},\ and\ \bibinfo
+  {author} {\bibfnamefont {T.}~\bibnamefont {Senthil}},\ }\bibfield  {title}
+  {\bibinfo {title} {Controlled expansion for certain non-{F}ermi-liquid
+  metals},\ }\href {https://doi.org/10.1103/PhysRevB.82.045121} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume}
+  {82}},\ \bibinfo {pages} {045121} (\bibinfo {year} {2010})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {{Jiang}}\ \emph {et~al.}(2013)\citenamefont
+  {{Jiang}}, \citenamefont {{Block}}, \citenamefont {{Mishmash}}, \citenamefont
+  {{Garrison}}, \citenamefont {{Sheng}}, \citenamefont {{Motrunich}},\ and\
+  \citenamefont {{Fisher}}}]{Jiang}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.-C.}\ \bibnamefont
+  {{Jiang}}}, \bibinfo {author} {\bibfnamefont {M.~S.}\ \bibnamefont
+  {{Block}}}, \bibinfo {author} {\bibfnamefont {R.~V.}\ \bibnamefont
+  {{Mishmash}}}, \bibinfo {author} {\bibfnamefont {J.~R.}\ \bibnamefont
+  {{Garrison}}}, \bibinfo {author} {\bibfnamefont {D.~N.}\ \bibnamefont
+  {{Sheng}}}, \bibinfo {author} {\bibfnamefont {O.~I.}\ \bibnamefont
+  {{Motrunich}}},\ and\ \bibinfo {author} {\bibfnamefont {M.~P.~A.}\
+  \bibnamefont {{Fisher}}},\ }\bibfield  {title} {\bibinfo {title}
+  {{Non-{F}ermi-liquid d-wave metal phase of strongly interacting electrons}},\
+  }\href {https://doi.org/10.1038/nature11732} {\bibfield  {journal} {\bibinfo
+  {journal} {\nat}\ }\textbf {\bibinfo {volume} {493}},\ \bibinfo {pages} {39}
+  (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Senthil}\ and\ \citenamefont
+  {Shankar}(2009)}]{senshank}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Senthil}}\ and\ \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Shankar}},\ }\bibfield  {title} {\bibinfo {title} {{F}ermi surfaces in
+  general codimension and a new controlled nontrivial fixed point},\ }\href
+  {https://doi.org/10.1103/PhysRevLett.102.046406} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {102}},\
+  \bibinfo {pages} {046406} (\bibinfo {year} {2009})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Sachdev}(2011)}]{sachdev_2011}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Sachdev}},\ }\href {https://doi.org/10.1017/CBO9780511973765} {\emph
+  {\bibinfo {title} {Quantum Phase Transitions}}},\ \bibinfo {edition} {2nd}\
+  ed.\ (\bibinfo  {publisher} {Cambridge University Press},\ \bibinfo {year}
+  {2011})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ando}\ \emph {et~al.}(2002)\citenamefont {Ando},
+  \citenamefont {Segawa}, \citenamefont {Komiya},\ and\ \citenamefont
+  {Lavrov}}]{yoichi}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Ando}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Segawa}},
+  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Komiya}},\ and\ \bibinfo
+  {author} {\bibfnamefont {A.~N.}\ \bibnamefont {Lavrov}},\ }\bibfield  {title}
+  {\bibinfo {title} {Electrical resistivity anisotropy from self-organized one
+  dimensionality in high-temperature superconductors},\ }\href
+  {https://doi.org/10.1103/PhysRevLett.88.137005} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {88}},\
+  \bibinfo {pages} {137005} (\bibinfo {year} {2002})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Hinkov}\ \emph {et~al.}(2008)\citenamefont {Hinkov},
+  \citenamefont {Haug}, \citenamefont {Fauqué}, \citenamefont {Bourges},
+  \citenamefont {Sidis}, \citenamefont {Ivanov}, \citenamefont {Bernhard},
+  \citenamefont {Lin},\ and\ \citenamefont {Keimer}}]{hinkov}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
+  {Hinkov}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Haug}},
+  \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Fauqué}}, \bibinfo
+  {author} {\bibfnamefont {P.}~\bibnamefont {Bourges}}, \bibinfo {author}
+  {\bibfnamefont {Y.}~\bibnamefont {Sidis}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {Ivanov}}, \bibinfo {author} {\bibfnamefont
+  {C.}~\bibnamefont {Bernhard}}, \bibinfo {author} {\bibfnamefont {C.~T.}\
+  \bibnamefont {Lin}},\ and\ \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Keimer}},\ }\bibfield  {title} {\bibinfo {title} {Electronic liquid crystal
+  state in the high-temperature superconductor \ce{YBa2Cu3O}$_{6.45}$},\ }\href
+  {https://doi.org/10.1126/science.1152309} {\bibfield  {journal} {\bibinfo
+  {journal} {Science}\ }\textbf {\bibinfo {volume} {319}},\ \bibinfo {pages}
+  {597} (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kohsaka}\ \emph {et~al.}(2007)\citenamefont
+  {Kohsaka}, \citenamefont {Taylor}, \citenamefont {Fujita}, \citenamefont
+  {Schmidt}, \citenamefont {Lupien}, \citenamefont {Hanaguri}, \citenamefont
+  {Azuma}, \citenamefont {Takano}, \citenamefont {Eisaki}, \citenamefont
+  {Takagi}, \citenamefont {Uchida},\ and\ \citenamefont {Davis}}]{Kohsaka}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Kohsaka}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Taylor}},
+  \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Fujita}}, \bibinfo
+  {author} {\bibfnamefont {A.}~\bibnamefont {Schmidt}}, \bibinfo {author}
+  {\bibfnamefont {C.}~\bibnamefont {Lupien}}, \bibinfo {author} {\bibfnamefont
+  {T.}~\bibnamefont {Hanaguri}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {Azuma}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {Takano}}, \bibinfo {author} {\bibfnamefont
+  {H.}~\bibnamefont {Eisaki}}, \bibinfo {author} {\bibfnamefont
+  {H.}~\bibnamefont {Takagi}}, \bibinfo {author} {\bibfnamefont
+  {S.}~\bibnamefont {Uchida}},\ and\ \bibinfo {author} {\bibfnamefont {J.~C.}\
+  \bibnamefont {Davis}},\ }\bibfield  {title} {\bibinfo {title} {An intrinsic
+  bond-centered electronic glass with unidirectional domains in underdoped
+  cuprates},\ }\href {https://doi.org/10.1126/science.1138584} {\bibfield
+  {journal} {\bibinfo  {journal} {Science}\ }\textbf {\bibinfo {volume}
+  {315}},\ \bibinfo {pages} {1380} (\bibinfo {year} {2007})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Daou}\ \emph {et~al.}(2010)\citenamefont {Daou},
+  \citenamefont {Chang}, \citenamefont {LeBoeuf}, \citenamefont
+  {Cyr-Choinière}, \citenamefont {Laliberté}, \citenamefont {Doiron-Leyraud},
+  \citenamefont {Ramshaw}, \citenamefont {Liang}, \citenamefont {Bonn},
+  \citenamefont {Hardy},\ and\ \citenamefont {et~al.}}]{Daou}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Daou}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Chang}},
+  \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {LeBoeuf}}, \bibinfo
+  {author} {\bibfnamefont {O.}~\bibnamefont {Cyr-Choinière}}, \bibinfo
+  {author} {\bibfnamefont {F.}~\bibnamefont {Laliberté}}, \bibinfo {author}
+  {\bibfnamefont {N.}~\bibnamefont {Doiron-Leyraud}}, \bibinfo {author}
+  {\bibfnamefont {B.~J.}\ \bibnamefont {Ramshaw}}, \bibinfo {author}
+  {\bibfnamefont {R.}~\bibnamefont {Liang}}, \bibinfo {author} {\bibfnamefont
+  {D.~A.}\ \bibnamefont {Bonn}}, \bibinfo {author} {\bibfnamefont {W.~N.}\
+  \bibnamefont {Hardy}},\ and\ \bibinfo {author} {\bibnamefont {et~al.}},\
+  }\bibfield  {title} {\bibinfo {title} {Broken rotational symmetry in the
+  pseudogap phase of a high-{T}$_c$ superconductor},\ }\href
+  {https://doi.org/10.1038/nature08716} {\bibfield  {journal} {\bibinfo
+  {journal} {Nature}\ }\textbf {\bibinfo {volume} {463}},\ \bibinfo {pages}
+  {519–522} (\bibinfo {year} {2010})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Hsu}\ \emph {et~al.}(2008)\citenamefont {Hsu},
+  \citenamefont {Luo}, \citenamefont {Yeh}, \citenamefont {Chen}, \citenamefont
+  {Huang}, \citenamefont {Wu}, \citenamefont {Lee}, \citenamefont {Huang},
+  \citenamefont {Chu}, \citenamefont {Yan},\ and\ \citenamefont
+  {Wu}}]{hsu2008superconductivity}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.-C.}\ \bibnamefont
+  {Hsu}}, \bibinfo {author} {\bibfnamefont {J.-Y.}\ \bibnamefont {Luo}},
+  \bibinfo {author} {\bibfnamefont {K.-W.}\ \bibnamefont {Yeh}}, \bibinfo
+  {author} {\bibfnamefont {T.-K.}\ \bibnamefont {Chen}}, \bibinfo {author}
+  {\bibfnamefont {T.-W.}\ \bibnamefont {Huang}}, \bibinfo {author}
+  {\bibfnamefont {P.~M.}\ \bibnamefont {Wu}}, \bibinfo {author} {\bibfnamefont
+  {Y.-C.}\ \bibnamefont {Lee}}, \bibinfo {author} {\bibfnamefont {Y.-L.}\
+  \bibnamefont {Huang}}, \bibinfo {author} {\bibfnamefont {Y.-Y.}\ \bibnamefont
+  {Chu}}, \bibinfo {author} {\bibfnamefont {D.-C.}\ \bibnamefont {Yan}},\ and\
+  \bibinfo {author} {\bibfnamefont {M.-K.}\ \bibnamefont {Wu}},\ }\bibfield
+  {title} {\bibinfo {title} {Superconductivity in the {P}b{O}-type structure
+  $\alpha$-{F}e{S}e},\ }\href {https://doi.org/10.1073/pnas.0807325105}
+  {\bibfield  {journal} {\bibinfo  {journal} {Proceedings of the National
+  Academy of Sciences}\ }\textbf {\bibinfo {volume} {105}},\ \bibinfo {pages}
+  {14262} (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Margadonna}\ \emph {et~al.}(2008)\citenamefont
+  {Margadonna}, \citenamefont {Takabayashi}, \citenamefont {McDonald},
+  \citenamefont {Kasperkiewicz}, \citenamefont {Mizuguchi}, \citenamefont
+  {Takano}, \citenamefont {Fitch}, \citenamefont {Suard},\ and\ \citenamefont
+  {Prassides}}]{margadonna2008crystal}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Margadonna}}, \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Takabayashi}}, \bibinfo {author} {\bibfnamefont {M.~T.}\ \bibnamefont
+  {McDonald}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Kasperkiewicz}}, \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Mizuguchi}}, \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Takano}},
+  \bibinfo {author} {\bibfnamefont {A.~N.}\ \bibnamefont {Fitch}}, \bibinfo
+  {author} {\bibfnamefont {E.}~\bibnamefont {Suard}},\ and\ \bibinfo {author}
+  {\bibfnamefont {K.}~\bibnamefont {Prassides}},\ }\bibfield  {title} {\bibinfo
+  {title} {Crystal structure of the new {F}e{S}e$_{1-x}$ superconductor},\
+  }\href {https://doi.org/https://doi.org/10.1039/b813076k} {\bibfield
+  {journal} {\bibinfo  {journal} {Chem. Commun.}\ ,\ \bibinfo {pages} {5607}}
+  (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {McQueen}\ \emph {et~al.}(2009)\citenamefont
+  {McQueen}, \citenamefont {Williams}, \citenamefont {Stephens}, \citenamefont
+  {Tao}, \citenamefont {Zhu}, \citenamefont {Ksenofontov}, \citenamefont
+  {Casper}, \citenamefont {Felser},\ and\ \citenamefont
+  {Cava}}]{mcqueen2009tetragonal}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.~M.}\ \bibnamefont
+  {McQueen}}, \bibinfo {author} {\bibfnamefont {A.~J.}\ \bibnamefont
+  {Williams}}, \bibinfo {author} {\bibfnamefont {P.~W.}\ \bibnamefont
+  {Stephens}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Tao}},
+  \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Zhu}}, \bibinfo {author}
+  {\bibfnamefont {V.}~\bibnamefont {Ksenofontov}}, \bibinfo {author}
+  {\bibfnamefont {F.}~\bibnamefont {Casper}}, \bibinfo {author} {\bibfnamefont
+  {C.}~\bibnamefont {Felser}},\ and\ \bibinfo {author} {\bibfnamefont {R.~J.}\
+  \bibnamefont {Cava}},\ }\bibfield  {title} {\bibinfo {title}
+  {Tetragonal-to-orthorhombic structural phase transition at 90 {K} in the
+  superconductor {F}e$_{1.01}${S}e},\ }\href
+  {https://doi.org/10.1103/PhysRevLett.103.057002} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {103}},\
+  \bibinfo {pages} {057002} (\bibinfo {year} {2009})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Mandal}(2022)}]{ips-zero-mode}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {I.}~\bibnamefont
+  {Mandal}},\ }\bibfield  {title} {\bibinfo {title} {Zero sound and plasmon
+  modes for non-{F}ermi liquids},\ }\href
+  {https://doi.org/https://doi.org/10.1016/j.physleta.2022.128292} {\bibfield
+  {journal} {\bibinfo  {journal} {Physics Letters A}\ }\textbf {\bibinfo
+  {volume} {447}},\ \bibinfo {pages} {128292} (\bibinfo {year}
+  {2022})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Islam}\ and\ \citenamefont
+  {Mandal}(2023)}]{ips-kazi}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.~R.}\ \bibnamefont
+  {Islam}}\ and\ \bibinfo {author} {\bibfnamefont {I.}~\bibnamefont {Mandal}},\
+  }\bibfield  {title} {\bibinfo {title} {Generic deformation channels for
+  critical fermi surfaces in the collisionless regime},\ }\href
+  {https://doi.org/https://doi.org/10.1016/j.aop.2023.169409} {\bibfield
+  {journal} {\bibinfo  {journal} {Annals of Physics}\ }\textbf {\bibinfo
+  {volume} {457}},\ \bibinfo {pages} {169409} (\bibinfo {year}
+  {2023})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Wang}\ and\ \citenamefont
+  {Chowdhury}(2023)}]{debanjan}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {X.}~\bibnamefont
+  {Wang}}\ and\ \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Chowdhury}},\ }\bibfield  {title} {\bibinfo {title} {Collective density
+  fluctuations of strange metals with critical {F}ermi surfaces},\ }\href
+  {https://doi.org/10.1103/PhysRevB.107.125157} {\bibfield  {journal} {\bibinfo
+   {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {107}},\ \bibinfo
+  {pages} {125157} (\bibinfo {year} {2023})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Else}(2023)}]{else}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~V.}\ \bibnamefont
+  {Else}},\ }\bibfield  {title} {\bibinfo {title} {Collisionless dynamics of
+  general non-{F}ermi liquids from hydrodynamics of emergent conserved
+  quantities},\ }\href {https://doi.org/10.1103/PhysRevB.108.045107} {\bibfield
+   {journal} {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume}
+  {108}},\ \bibinfo {pages} {045107} (\bibinfo {year} {2023})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Khveshchenko}(2025)}]{khveshchenko}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~V.}\ \bibnamefont
+  {Khveshchenko}},\ }\bibfield  {title} {\bibinfo {title} {{Collective modes in
+  two-dimensional non-Fermi liquids}},\ }\href
+  {https://doi.org/10.1103/PhysRevB.111.L161108} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {111}},\
+  \bibinfo {pages} {L161108} (\bibinfo {year} {2025})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Prange}\ and\ \citenamefont
+  {Kadanoff}(1964)}]{prange}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~E.}\ \bibnamefont
+  {Prange}}\ and\ \bibinfo {author} {\bibfnamefont {L.~P.}\ \bibnamefont
+  {Kadanoff}},\ }\bibfield  {title} {\bibinfo {title} {Transport theory for
+  electron-phonon interactions in metals},\ }\href
+  {https://doi.org/10.1103/PhysRev.134.A566} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume} {134}},\ \bibinfo {pages}
+  {A566} (\bibinfo {year} {1964})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kim}\ \emph {et~al.}(1995{\natexlab{a}})\citenamefont
+  {Kim}, \citenamefont {Lee},\ and\ \citenamefont {Wen}}]{kim_qbe}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.~B.}\ \bibnamefont
+  {Kim}}, \bibinfo {author} {\bibfnamefont {P.~A.}\ \bibnamefont {Lee}},\ and\
+  \bibinfo {author} {\bibfnamefont {X.-G.}\ \bibnamefont {Wen}},\ }\bibfield
+  {title} {\bibinfo {title} {Quantum {B}oltzmann equation of composite fermions
+  interacting with a gauge field},\ }\href
+  {https://doi.org/10.1103/PhysRevB.52.17275} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {52}},\ \bibinfo
+  {pages} {17275} (\bibinfo {year} {1995}{\natexlab{a}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kamenev}(2011)}]{kamenev}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Kamenev}},\ }\href {https://doi.org/10.1017/CBO9781139003667} {\emph
+  {\bibinfo {title} {Field Theory of Non-Equilibrium Systems}}}\ (\bibinfo
+  {publisher} {Cambridge University Press},\ \bibinfo {year}
+  {2011})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kim}\ \emph {et~al.}(1995{\natexlab{b}})\citenamefont
+  {Kim}, \citenamefont {Lee},\ and\ \citenamefont {Wen}}]{kim1995quantum}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.~B.}\ \bibnamefont
+  {Kim}}, \bibinfo {author} {\bibfnamefont {P.~A.}\ \bibnamefont {Lee}},\ and\
+  \bibinfo {author} {\bibfnamefont {X.-G.}\ \bibnamefont {Wen}},\ }\bibfield
+  {title} {\bibinfo {title} {{Quantum Boltzmann equation of composite fermions
+  interacting with a gauge field}},\ }\href
+  {https://doi.org/10.1103/PhysRevB.52.17275} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {52}},\ \bibinfo
+  {pages} {17275} (\bibinfo {year} {1995}{\natexlab{b}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Han}\ \emph {et~al.}(2025)\citenamefont {Han},
+  \citenamefont {Desrochers},\ and\ \citenamefont {Kim}}]{yrkv-42wd}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Han}}, \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Desrochers}},\
+  and\ \bibinfo {author} {\bibfnamefont {Y.~B.}\ \bibnamefont {Kim}},\
+  }\bibfield  {title} {\bibinfo {title} {Fermi surface bosonization for
+  non-{F}ermi liquids},\ }\href {https://doi.org/10.1103/yrkv-42wd} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume}
+  {112}},\ \bibinfo {pages} {165116} (\bibinfo {year} {2025})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Esterlis}\ \emph {et~al.}(2021)\citenamefont
+  {Esterlis}, \citenamefont {Guo}, \citenamefont {Patel},\ and\ \citenamefont
+  {Sachdev}}]{PhysRevB.103.235129}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {I.}~\bibnamefont
+  {Esterlis}}, \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Guo}},
+  \bibinfo {author} {\bibfnamefont {A.~A.}\ \bibnamefont {Patel}},\ and\
+  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Sachdev}},\ }\bibfield
+  {title} {\bibinfo {title} {Large-$n$ theory of critical {F}ermi surfaces},\
+  }\href {https://doi.org/10.1103/PhysRevB.103.235129} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {103}},\
+  \bibinfo {pages} {235129} (\bibinfo {year} {2021})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kadanoff}(2018)}]{kadanoff2018quantum}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.~P.}\ \bibnamefont
+  {Kadanoff}},\ }\href@noop {} {\emph {\bibinfo {title} {Quantum statistical
+  mechanics}}}\ (\bibinfo  {publisher} {CRC Press},\ \bibinfo {year}
+  {2018})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Mahan}(2013)}]{mahan2013many}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.~D.}\ \bibnamefont
+  {Mahan}},\ }\href@noop {} {\emph {\bibinfo {title} {Many-particle physics}}}\
+  (\bibinfo  {publisher} {Springer Science \& Business Media},\ \bibinfo {year}
+  {2013})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Craig}(1968)}]{craig}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~A.}\ \bibnamefont
+  {Craig}},\ }\bibfield  {title} {\bibinfo {title} {Perturbation expansion for
+  real‐time {G}reen's functions},\ }\href {https://doi.org/10.1063/1.1664616}
+  {\bibfield  {journal} {\bibinfo  {journal} {Journal of Mathematical Physics}\
+  }\textbf {\bibinfo {volume} {9}},\ \bibinfo {pages} {605} (\bibinfo {year}
+  {1968})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Rammer}\ and\ \citenamefont
+  {Smith}(1986)}]{rammer1986quantum}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Rammer}}\ and\ \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Smith}},\
+  }\bibfield  {title} {\bibinfo {title} {Quantum field-theoretical methods in
+  transport theory of metals},\ }\href
+  {https://doi.org/10.1103/RevModPhys.58.323} {\bibfield  {journal} {\bibinfo
+  {journal} {Rev. Mod. Phys.}\ }\textbf {\bibinfo {volume} {58}},\ \bibinfo
+  {pages} {323} (\bibinfo {year} {1986})}\BibitemShut {NoStop}%
+\end{thebibliography}%
