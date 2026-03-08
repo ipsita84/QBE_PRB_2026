@@ -1,3 +1,4 @@
+
 \documentclass[aps, prb, onecolumn, nofootinbib, citeautoscript, 10pt]{revtex4-2} 
 
 
@@ -45,9 +46,7 @@
 
 \newcommand{\bk}{\mathbf{k}}
 \newcommand{\bp}{\mathbf{p}}
-\newcommand{\q}{\mathbf{q}}
 \newcommand{\bq}{\mathbf{q}}
-\newcommand{\p}{\mathbf{p}}
 \newcommand{\br}{\mathbf{r}}
 \newcommand{\bOmega}{\bar{\Omega}}
 \newcommand{\bbq}{|\bar{\mathbf{q}}|}
@@ -86,26 +85,26 @@ This paper constitutes a sequel to our theoretical efforts to determine the natu
 
 \section{Introduction}
 
-Non-Fermi liquid (NFL) metals are one of the most prominent representatives of the consequences of strong correlations in condensed matter systems \cite{metlsach1, metlsach, olav, Lee-Dalid, ips-uv-ir1, ips-uv-ir2, ips-fflo, ips-nfl-u1,  metzner, ips-2kf, ips-cavity, ips-rafael, ips-moire-cdw}, defying analytical investigations using conventional theories. In particular, Landau's Fermi liquid theory, which explains normal metals extremely well, breaks down for the case of NFLs, caused by the destruction of the Landau quasiparticles. Consequently, they possess \textit{strange} thermodynamical and transport properties \cite{ips-subir, ips-c2, ips-hermann, ips-hermann2, ips-hermann3, ips-hermann-review}, being starkly distinct from those of the normal metals. One such characteristic involves the resistivity not having a quadratic-in-$T$ dependence, which is a hallmark property of Fermi liquids (describing normal metals). Other such distinctions can be detected in optical conductivity \cite{ips-subir, ips-c2} and increased affinity towards superconducting instability \cite{ips2, ips-sc, ips-c2}. Some well-known scenarios, where such \textit{strange-metallic} characteristics emerge, happen to be (1) finite-density fermions interacting with an order-parameter bosons, which become massless at a quantum critical point (QCP) \cite{metlsach1, metlsach, Lee-Dalid,ips-uv-ir1, ips-uv-ir2, ips-fflo, ips-rafael, ips-2kf, ips-cavity}; (2) finite-density fermions interacting with transverse gauge field(s) \cite{olav, ips2, ips3, ips-nfl-u1}; (3) chemical potential tuned to the band-touching points of semimetals in the presence of unscreened Coulomb interactions \cite{Abrikosov, moon-xu, rahul-sid, ips-rahul, malcolm-bitan, ips-birefringent}. In this paper, our focus will be on the stable NFL arising at the two-dimensional (2d) Ising-nematic QCP \cite{metlsach1, metlsach, Lee-Dalid, ips-uv-ir1, ips-uv-ir2}.
+Non-Fermi liquid (NFL) metals are one of the most prominent representatives of the consequences of strong correlations in condensed matter systems \cite{metlsach1, metlsach, olav, Lee-Dalid, ips-uv-ir1, ips-uv-ir2, ips-fflo, ips-nfl-u1,  metzner, ips-2kf, ips-cavity, ips-rafael, ips-cdw-moire}, defying analytical investigations using conventional theories. In particular, Landau's Fermi-liquid theory, which explains normal metals extremely well, breaks down for the case of NFLs, caused by the destruction of the Landau quasiparticles. Consequently, they possess \textit{strange} thermodynamical and transport properties \cite{ips-subir, ips-c2, ips-hermann, ips-hermann2, ips-hermann3, ips-hermann-review}, being starkly distinct from those of the normal metals. One such characteristic involves the resistivity not having a quadratic-in-$T$ dependence, which is a hallmark property of Fermi liquids (describing normal metals). Other such distinctions can be detected in optical conductivity \cite{ips-subir, ips-c2} and increased affinity towards superconducting instability \cite{ips2, ips-sc, ips-c2}. Some well-known scenarios, where such \textit{strange-metallic} characteristics emerge, happen to be (1) finite-density fermions interacting with order-parameter bosons that become massless at a quantum critical point (QCP) \cite{metlsach1, metlsach, Lee-Dalid,ips-uv-ir1, ips-uv-ir2, ips-fflo, ips-rafael, ips-2kf, ips-cavity}; (2) finite-density fermions interacting with transverse gauge field(s) \cite{olav, ips2, ips3, ips-nfl-u1}; (3) chemical potential tuned to the band-touching points of semimetals in the presence of unscreened Coulomb interactions \cite{Abrikosov, moon-xu, rahul-sid, ips-rahul, malcolm-bitan, ips-birefringent}. In this paper, our focus will be on the stable NFL arising at the two-dimensional (2d) Ising-nematic QCP \cite{metlsach1, metlsach, Lee-Dalid, ips-uv-ir1, ips-uv-ir2}.
 
-There have been extensive efforts to obtain perturbative NFL states implementing distinct and complementary ways, for which we provide an overview. The first popular attempt was the introduction of a large number ($N$) of flavours \cite{ALTSHULER,polchinski,ybkim} as a mathematical tool, employing the natural intuition that extra flavours do not introduce qualitatively new element to the theory except that the flavour symmetry group is enlarged. However, eventually, it was established beyond question that the $N \rightarrow \infty$ limit for finite-density fermions is not described by a mean-field theory \cite{SSLee, metlsach1}. The physical reason behind this is the fact that there exists a large amountif residual quantum-fluctuations of the Fermi surface. Following these seminal works, controlled approximations were formulated which were not based on expansion in $1/N$.
+There have been extensive efforts to obtain perturbative NFL states implementing distinct and complementary ways, for which we provide an overview. The first popular attempt was the introduction of a large number ($N$) of flavours \cite{ALTSHULER,polchinski,ybkim} as a mathematical tool, employing the natural intuition that extra flavours do not introduce qualitatively new element to the theory, except that the flavour-symmetry group is enlarged. However, eventually, it was established beyond question that the $N \rightarrow \infty$ limit for finite-density fermions is not described by a mean-field theory \cite{SSLee, metlsach1}. The physical reason behind this is the fact that there exists a large amount of residual quantum-fluctuations of the Fermi surface. Following these seminal works, controlled approximations were formulated which were not based on expansion in $1/N$.
 One methodology was deforming the dynamics of the theory, for example by modifying the dispersion of a critical boson, to suppress quantum fluctuations at low-energies \cite{nayak, mross}. In another effort, accessing two-dimensional NFLs was made possible by increasing the number of one-dimensional chains, where bosonization provides a controlled analytical tool \cite{Jiang}.
 Finally, the mathematical control of perturbation was gained by an intermediate step of modifying the number of dimensions of spacetime (in which the system is embedded) in a continuous manner. This process can be implemented by extending either Fermi surface's dimension \cite{olav} or its co-dimension \cite{senshank}. In this paper, we adopt the framework where a controlled approximation was devised via a dimensional regularization scheme, where the co-dimension of Fermi surface is extended to access the NFLs \cite{Lee-Dalid, ips-uv-ir1}.
 
 Ising-nematic ordering implies the spontaneous breaking of the rotational symmetry of a Fermi surface in the $xy$-plane, which describes the Pomeranchuk instability in the angular-momentum channel with the value $\ell=2$. Consequently, a fourfold symmetric Fermi surface transitions into a twofold symmetric one, causing the $x$- and $y$-directions to become anisotropic \cite{metlsach1, sachdev_2011}. This broken symmetry is explained by invoking the Ising-nematic order parameter, which has the same Ginzburg-Landau action as the Ising order parameter of magnetism. Hence, this is captured by a real scalar bosonic field ($\phi$), whose momentum is centred at the wavevector $\mathbf{Q} = 0$. For the Ising-nematic QCP, a sharp Fermi surface is retained at the quantum phase transition, although the Landau quasiparticles get destroyed \cite{Lee-Dalid,ips-uv-ir1, ips-uv-ir2, ips-subir}. Because the Ising-nematic phase is predicted to exist in various high-T$_c$ materials like cuprate superconductors \cite{yoichi, hinkov, Kohsaka, Daou} and Fe-based superconductors \cite{hsu2008superconductivity, margadonna2008crystal,mcqueen2009tetragonal}, it can be viewed as a simple model system to study generic features of NFLs arising at QCPs \cite{Lee-Dalid, ips-uv-ir1, ips-fflo, ips-2kf, ips-cavity}. Since the Fermi surface continues to persist, the pertinent question that we ask is what the dispersion relations of the collective modes/excitations of the Fermi surface's deformations look like, when we decompose the displacements into angular momentum channels. In our earlier works, we attempted to answer this question by assuming the collisionless limit \cite{ips-zero-mode, ips-kazi}. Various other works have also investigated these aspects using various mathematical arguments and numerical simulations \cite{debanjan, else, khveshchenko}. 
 
 
-In order to deal with the challenging case of NFLs, we will use the nonequilibrium Green's function technique, outlined in Refs.~\cite{prange, kim_qbe}, and used in our earlier analyses \cite{ips-zero-mode, ips-kazi}. This allows us to derive the quantum Boltzmann equations (QBEs), giving rise to the \textit{so-called} generalized Landau-interaction functions (GLFs). The GLFs appear in the linearized kinetic equations as the analogues of the Landau parameters (defined for the Fermi-liquid case). Unlike the Landau parameters though, the GLFs have a frequency-dependence (in addition to the usual angular-dependence). The frequency-dependence is caused by the Landau damping that the gapless bosonic modes undergo. In our preceding works, we have focused on the collisionless regime (by neglecting the collision integral) and, also, assumed the bosons to be in equilibrium. Here, we improve upon that methodology by embarking on a full-fledged analysis. In particular, we take into account the bosonic part of the QBEs and, also, include all the collision terms arising for each kind of particle. Overall, we would like to emphasise that the primary new advancement of our work is twofold: (1) the systematic inclusion of \textit{collision integral part} within the QBE framework, going beyond the collisionless analysis of earlier works (viz. Refs.~\cite{ips-zero-mode, ips-kazi}); and (2) studying the frequency-dependent and complex GLFs, encoding damping effects to give a full-fledged description of generic deformation channels for critical Fermi surfaces.
+In order to deal with the challenging case of NFLs, we will use the nonequilibrium Green's function technique, outlined in Refs.~\cite{prange, kim_qbe}, and used in our earlier analyses \cite{ips-zero-mode, ips-kazi}. This allows us to derive the quantum Boltzmann equations (QBEs), giving rise to the \textit{so-called} generalised Landau-interaction functions (GLFs). The GLFs appear in the linearised kinetic equations as the analogues of the Landau parameters (defined for the Fermi-liquid case). Unlike the Landau parameters though, the GLFs have a frequency-dependence (in addition to the usual angular-dependence). The frequency-dependence is caused by the Landau-damping that the gapless bosonic modes undergo. In our preceding works, we have focused on the collisionless regime (by neglecting the collision integral) and, also, assumed the bosons to be in equilibrium. Here, we improve upon that methodology by embarking on a full-fledged analysis. In particular, we take into account the bosonic part of the QBEs and also include all the collision terms arising for each kind of particle. Overall, we would like to emphasise that the primary new advancement of our work is twofold: (1) the systematic inclusion of the \textit{collision integral part} within the QBE framework, going beyond the collisionless analysis of earlier works (viz. Refs.~\cite{ips-zero-mode, ips-kazi}); and (2) studying the frequency-dependent and complex GLFs, encoding damping effects to give a full-fledged description of generic deformation channels for critical Fermi surfaces.
 
 
-The paper is organized as follows: In Sec.~\ref{secmodel}, we introduce the model for the Ising-nematic quantum critical point, which shows an NFL fixed point \cite{Lee-Dalid, ips-uv-ir1, ips-uv-ir2, ips-subir,ips-sc, ips-zero-mode}. We also review the form of the Green's functions in the Keldysh formalism, which is useful for setting up the QBE for the fermions. In Sec.~\ref{secqbe}, we demonstrate the forms of the QBEs, including the relevant collision integrals, considering two scenarios: (A) the bosons are assumed to be in equilibrium, with no bosonic kinetic equation as a consequence; (B) the bosons are slightly away from equilibrium, giving rise to coupled QBEs governing the dynamics of both the fermions and the bosons. Sec.~\ref{secsol} deals with obtaining the explicit solutionsby decomposing our equations into distinct angular-momentum channels. The $\ell = 0$ mode represents the zero sound, and can be easily understood analytically, as explained in Sec.~\ref{seczero}. However, we also obtain the solutions retaining generic $ \ell$-values, which have to be implemented numeircally, due to the complexity of the couples equations involved. This we take care of in Sec.~\ref{seccode}. We conclude with a summary and outlook in Sec.~\ref{secsum}. The apppendices are devoted to explaining some notations and generic ingredients of the Keldysh framework.
+The paper is organized as follows: In Sec.~\ref{secmodel}, we introduce the model for the Ising-nematic quantum critical point, which shows an NFL fixed point \cite{Lee-Dalid, ips-uv-ir1, ips-uv-ir2, ips-subir,ips-sc, ips-zero-mode, ips-kazi}. We also review the form of the Green's functions in the Keldysh formalism, which is useful for setting up the QBEs for the fermions and the bosons. In Sec.~\ref{secqbe}, we demonstrate the forms of the QBEs, including the relevant collision integrals, considering two scenarios: (A) the bosons are assumed to be in equilibrium, with no bosonic kinetic equation as a consequence; (B) the bosons are slightly away from equilibrium, giving rise to coupled QBEs governing the dynamics of both the fermions and the bosons. Sec.~\ref{secsol} deals with obtaining the explicit solutions by decomposing our equations into distinct angular-momentum channels. The $\ell = 0$ mode represents the zero sound, and can be easily understood analytically, as explained in Sec.~\ref{seczero}. However, we also obtain the solutions retaining generic $ \ell$-values, which have to be implemented numerically, due to the complexity of the coupled equations involved. This we take care of in Sec.~\ref{seccode}. We conclude with a summary and outlook in Sec.~\ref{secsum}. The appendices are devoted to explaining some notations and generic ingredients of the Keldysh framework.
 
 
 %%%%%%%%%%%%%
 \section{Model}
 \label{secmodel}
 
-For describing the Ising-nematic QCP, there are the strong interactions of two kinds of degrees of freedom --- the itinerant fermionic excitations (around the critical Fermi surface), and the bosonic modes of the critical boson, which are essentially massless right at the phase transition. A stable non-Fermi liquid phase arises right at the QCP as a consequence of their mutual interactions, decimating the Landau-quasiparticle nature of the fermions. The effective field theory, which is able to capture all this behaviour, is described below \cite{metlsach1,sachdev_2011}:
+For describing the Ising-nematic QCP, there are strong interactions between two kinds of degrees of freedom --- the itinerant fermionic excitations (around the critical Fermi surface), and the modes of the critical boson, which are essentially massless right at the phase transition. A stable NFL phase arises right at the QCP as a consequence of their mutual interactions, decimating the Landau-quasiparticle nature of the fermions. The effective field theory, which is able to capture all this behaviour, is described below \cite{metlsach1,sachdev_2011}:
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{enumerate}[leftmargin=*]
 
@@ -120,7 +119,7 @@ For describing the Ising-nematic QCP, there are the strong interactions of two k
 	\right].
 \end{align}
 Here, the position space is spanned by the $(x,\,y)$ coordinates, $c_\phi$ is the boson velocity, $ r_\phi$ is the parameter tuning across the QCP, and $u_\phi$ is the coupling constant for the $\phi^4$-term. Computing the tree-level/engineering dimensions of the various terms, all couplings can be scaled away or set equal to unity, except for $r_\phi$. 
-The QCP is the zero-temperature phase transition appearing at $ r_\phi =0$. The physics of this purely bosonic part, however, is not the complete story, as the fermions coupling to the gapless bosons at $ r_\phi =0$ change the nature of the quantum critical fluctuations. The resulting composite system is strongly coupled, with the bosons acquiring Landau damping, causing the fermions to behave as an NFL in turn. Although the NFL fixed point emerges at temperature $T=0$, which of course is not observable, the quantum effects show their distinctive NFL-like features  in an extended fan-shaped quantum critical region emanating from the QCP \cite{sachdev_2011}.
+The QCP is the zero-temperature phase transition appearing at $ r_\phi =0$. The physics of this purely bosonic part, however, is not the complete story, as the fermions coupling to the gapless bosons at $ r_\phi =0$ change the nature of the quantum critical fluctuations. The resulting composite system is strongly coupled, with the bosons acquiring Landau-damping, causing the fermions to behave as an NFL in turn. Although the NFL fixed point emerges at temperature $T=0$, which of course is not observable, the quantum effects show their distinctive NFL-like features  in an extended fan-shaped quantum critical region emanating from the QCP \cite{sachdev_2011}.
 	
 		
 		
@@ -133,7 +132,7 @@ The QCP is the zero-temperature phase transition appearing at $ r_\phi =0$. The 
 	\quad \delta_k =  v_F \,k_{\perp}  +   \frac{k_{\parallel}^2} {2\,m}\,,
 \end{align}
 in the Fourier space. Here, $\psi$ denotes the fermionic field residing on the patch under consideration. We have used the condensed notations of $k \equiv (k_0, \mathbf k)$ (with $k_0 $ denoting the Matsubara frequency) and $ \int_k  \equiv \int \frac{dk_0\,dk_{\parallel}\,dk_\perp } {(2\,\pi)^3}$.
-While writing the kinetic terms in the the patch coordinates, we have expanded the fermion momentum about the local Fermi momentum, $k_F$, such that $ k_{\perp}$ is directed perpendicular to the local Fermi surface, and $k_{\parallel}$ is tangential to it.
+While writing the kinetic terms in the the patch coordinates, we have expanded the fermion momentum about the local Fermi momentum, $k_F$, such that $ k_{\perp}$ is directed perpendicular to the local Fermi surface and $k_{\parallel}$ is tangential to it.
 
 \item The last bit comprises the coupling terms between the bosons and the fermions, which are captured by
 \begin{align}
@@ -191,16 +190,16 @@ we use the one-loop corrected bosonic propagator,
 	\label{eqbareD}
 \end{align} 
 in all our subsequent loop calculations.
-We note that $ \Pi(q)$ takes a form which represents an overdamped harmonic oscillator, thus earning it the nomenclature of \textit{Landau damping}. The validity of this expression corresponds to the limits of $| q_0|/|q_\parallel| \ll 1 $, $|\mathbf q| \ll k_F$, and $ |\mathbf q| \rightarrow 0 $.
+We note that $ \Pi(q)$ takes a form which represents an overdamped harmonic oscillator, thus earning it the nomenclature of \textit{Landau-damping}. The validity of this expression corresponds to the limits of $| q_0|/|q_\parallel| \ll 1 $, $|\mathbf q| \ll k_F$, and $ |\mathbf q| \rightarrow 0 $.
 
 
-\item Using the dressed bosonic propagator (containing the all-important effects of Landau damping), the one-loop fermion self-energy in the Matsubara space turns out to be 
+\item Using the dressed bosonic propagator (containing the all-important effects of Landau-damping), the one-loop fermion self-energy in the Matsubara space turns out to be 
 \begin{align}
 	\Sigma(k)= -\, \frac{   i \, \,   e^{\frac{4} {3}}\, \text{sgn}(k_0) \, |k_0|^{ \frac{2} {3} }}
 	{2 \, \sqrt{3}\, \pi^{ \frac{2} {3} }\,k_F^{\frac{1} {2}}} \,.
 	\label{selfenergyform}
 \end{align}
-The imaginary part of the self-energy represents the lifetime of the underlying quasiparticles. For a Fermi liquid, the self-energy turns out to be proportional to $\omega^2$, which is much smaller than the excitation energy $\omega$, in the limit $\omega \ll 1$. This is the reason why we can define long-lived Landau quasiparticles for a normal metal (or Fermi liquid). But here we find that $\text{Im}\Sigma \propto |\omega|^{ \frac{2} {3} }$, whose magnitude is much greater than $|\omega|$ in the limit $\omega \rightarrow 0$. Thus the quasiparticle picture fails for the Ising-nematic QCP, making the traditional Boltzmann formalism inadequate for deriving the corresponding kinetic equations. 
+The imaginary part of the self-energy represents the lifetime of the underlying quasiparticles. For a Fermi liquid, the self-energy turns out to be proportional to $\omega^2$, which is much smaller than the excitation energy $\omega$, in the limit $\omega \rightarrow 0 $. This is the reason why we can define long-lived Landau quasiparticles for a normal metal (or Fermi liquid). However, here we find that $\text{Im}\Sigma \propto |\omega|^{ \frac{2} {3} }$, whose magnitude is much greater than $|\omega|$ in the limit $\omega \rightarrow 0$. Thus the quasiparticle picture fails for the Ising-nematic QCP, making the traditional Boltzmann formalism inadequate for deriving the corresponding kinetic equations. 
 	
 \end{enumerate}
 
@@ -213,13 +212,13 @@ To deal with a generic nonequilibrium situation, a widely used method is to use 
 %%%%%%%%%%%%
 The Keldysh formalism comes to include various types of Green’s functions, which appear as a consequence of the respective locations of their time arguments on the folded contour. These are shown in Appendex~\ref{app1} for the sake of completeness. 
 Using these ingredients, we finally change the spacetime coordinates to $(t_{\rm rel}=t_1-t_2, \, \mathbf r_{\rm rel} =\mathbf r_1 -\mathbf r_2)$ and $(t=\frac{t_1 + t_2} {2}, \,  \mathbf r  = \frac{ \mathbf r_1 +  \mathbf r_2} {2})$, which are also known as the Wigner coordinates. While the former refers to the \textit{relative coordinates}, the latter comprises the \textit{centre-of-mass} description. Through this step, we can easily describe the system in the equilibrium limit, because the dependence on $(t, \mathbf r)$ drops out due to the emergent translational invariance both in time and space, causing all the Green's functions to depend \textit{only} on $(t_{\rm rel}, \mathbf r_{\rm rel})$. Defining $k_1\equiv (\omega_{k_1}, \, \mathbf k_1)$ and $k_2\equiv (\omega_{k_2}, \, \mathbf k_2)$ to be the canonically conjugate energy-momentum variables of $x_1\equiv(t_1,\mathbf r_1)$ and $x_2\equiv(t_2,\mathbf r_2)$, respectively, we can then easily perform our calculations by going to the Fourier space, with the canonically conjugate variable defined as $ k =\frac{ k_1 - k_2}{2} $.
-In a generic nonequilibrium situation, the additional dependence on $(t_{\rm rel}, \, \mathbf r_{\rm rel})$ needs to be accounted for, when we can use the canonically conjugate variables $  q=  k_1  +   k_2$, respectively.
+In a generic nonequilibrium situation, the additional dependence on $(t_{\rm rel}, \, \mathbf r_{\rm rel})$ needs to be accounted for, when we can use the canonically conjugate variable, $  q=  k_1  +   k_2$.
 For the sake of notational simplification, we define the shorthand symbols of $ x_{\rm rel}  = 
 (t_{\rm rel}, \, \mathbf r_{\rm rel})$, $ k  \equiv (\omega_k, \, {\mathbf k})$ and $
 q \equiv (  \omega_q, \,\mathbf q)$ [and set $\omega_q=\Omega $], combining everything into three-vectors.
 
 %%%%%%%%%%%%%%%%%%
-\subsection{Equilibrium properties and generalized distribution functions} 
+\subsection{Equilibrium properties and generalised distribution functions} 
 
 For our system, the explicit expressions for the bare (aka noninteracting) Green's functions, at equilibrium, are given by
 \begin{align}
@@ -266,7 +265,7 @@ We note that $\alpha $ represents the analogue of the fine-structure constant of
 
 
 
-The feedback of the overdamped bosons on the fermions are computed via the the retarded and advanced fermion self-energies at one-loop order. The equilibrium expressions for these self-energies at one-loop order, after analytic continuation of Eq.~\eqref{selfenergyform} to real frequencies, are obtained as
+The feedback of the overdamped bosons on the fermions is computed via the retarded and advanced fermion self-energies at one-loop order. The equilibrium expressions for these self-energies at one-loop order, after analytic continuation of Eq.~\eqref{selfenergyform} to real frequencies, are obtained as
 \begin{align}
 \label{eq-ferm-self-en}
 \Sigma^{R}(\omega_k)
@@ -280,7 +279,7 @@ The feedback of the overdamped bosons on the fermions are computed via the the r
 \end{align}
 respectively.
 %%%%%%%%%%%
-Thus, the one-loop corrected Green's functions take the forms of
+Thus, the one-loop-corrected Green's functions take the forms of
 \begin{align}
 	\left[ G_1^{R/A}(\omega_k, \mathbf{k}) \right]^{-1}
 	= \left[ G_{bare}^{R/A}( \omega_k ,\mathbf{k})  \right]^{-1} -\Sigma^{R/A}(\omega_k)\,.
@@ -301,14 +300,12 @@ where
 \end{align}
 %%%%%%%%%%%%%%
 Here, a few points are worth reiterating.
-In Landau's Fermi liquid theory, the imaginary part of the fermionic self-energy turns out to be $\text{Im}[\Sigma^R] \sim \omega_k^2 \ll |\omega_k| $ for $|\omega_k| \rightarrow 0 $.
+In Landau's Fermi-liquid theory, the imaginary part of the fermionic self-energy turns out to be $\text{Im}[\Sigma^R] \sim \omega_k^2 \ll |\omega_k| $ for $|\omega_k| \rightarrow 0 $.
 As a result, the equilibrium spectral function $A$ takes the form of a sharply-peaked function of $\omega_k$, such that $ A(\omega_k,\mathbf{k}) 
 \simeq 2 \,\pi \, \, \delta \big( \omega_k - \xi_\mathbf{k} - \text{Re}[\Sigma^R(\omega_k,\mathbf{k})] \big),$
 where $ \xi_\mathbf{k}$ is the bare fermion dispersion.
-This relation indicates that for fluctuations close to the equilibrium, we can construct a closed set of  equations for the fermion distribution function $ f(\omega_k,\mathbf k;t,\mathbf r)$,
-which constitute the QBEs. The set of linearized QBEs for the fluctuation
-$ \delta f(\omega_k,  \mathbf k;t,\mathbf r) = f(\omega_k, \mathbf k;t,\mathbf r) - f_0(\omega_k)$ describes the transport equations for a Fermi liquid. On the contrary, for our NFL system, Eq.~\eqref{eq-ferm-self-en} gives $ \text{Im} [\Sigma^R] \propto |\omega_k |^{ \frac{2} {3} }$, implying that $A(\omega_k, \mathbf{k})$ is not a sharply-peaked function of $\omega_k $ at equilibrium, contrary to the behaviour of Fermi liquid systems. As a result, $  \delta f(\omega_k, \mathbf k;t,\mathbf r)$ does not satisfy a closed set of equations even at equilibrium. We thus need to devise a formalism which does not depend on the smallness of the decay rate, a quantity that is proportional to the width of the peak in $A (\omega_k, \mathbf{k}) $ as a function of $\omega_k$. Observing that $A (\omega_k, \mathbf{k})$ has a well-defined peak around $ \delta_k = 0$ \cite{prange,kim_qbe} (since $\Sigma^R$ is a function of $\omega_k $ only), and $\int_{-\infty}^{\infty} \frac{d\delta_k}{ 2\, \pi  } A (\omega_k, \mathbf{k}) = 1$, 
-we conclude that $G^<$ and $G^>$ are sharply-peaked functions of $\delta_k$. Integrating over the region of the sharp peak, it is useful to define the generalized fermion distribution function $f$ (also known as a Wigner distribution function) as~\cite{kim1995quantum, prange}
+This relation indicates that for fluctuations close to the equilibrium, we can construct a closed set of  equations for the fermion distribution function $ f(\omega_k,\mathbf k;t,\mathbf r)$, which constitute the QBEs. The set of linearised QBEs for the fluctuation
+$ \delta f(\omega_k,  \mathbf k;t,\mathbf r) = f(\omega_k, \mathbf k;t,\mathbf r) - f_0(\omega_k)$ describes the transport equations for a Fermi liquid. On the contrary, for our NFL system, Eq.~\eqref{eq-ferm-self-en} gives $ \text{Im} [\Sigma^R] \propto |\omega_k |^{ \frac{2} {3} }$, implying that $A(\omega_k, \mathbf{k})$ is not a sharply-peaked function of $\omega_k $ at equilibrium, contrary to the behaviour of Fermi liquid systems. As a result, $  \delta f(\omega_k, \mathbf k;t,\mathbf r)$ does not satisfy a closed set of equations even at equilibrium. We thus need to devise a formalism which does not depend on the smallness of the decay rate, which is a quantity that is proportional to the width of the peak in $A (\omega_k, \mathbf{k}) $ as a function of $\omega_k$. Observing that $A (\omega_k, \mathbf{k})$ has a well-defined peak around $ \delta_k = 0$ \cite{prange,kim_qbe} (since $\Sigma^R$ is a function of $\omega_k $ only), and $\int_{-\infty}^{\infty} \frac{d\delta_k}{ 2\, \pi  } A (\omega_k, \mathbf{k}) = 1$, we conclude that $G^<$ and $G^>$ are sharply-peaked functions of $\delta_k$. Integrating over the region of the sharp peak, it is useful to define the generalised fermion distribution function $f$ (also known as a Wigner distribution function) as~\cite{kim_qbe, prange}
 \begin{align}
 	\label{eq:gdf}
 	\int \frac{d\delta_k}{ 2\, \pi  } \,
@@ -326,11 +323,11 @@ which works in the absence of well-defined Landau quasiparticles. These relation
 
 Applying Eq.~\eqref{eqspec} to Eq.~\eqref{listgfbos}, we get the bosonic spectral function as
 \begin{align}
-	B(\omega_k, \bk ) = 
-	\frac{2 \,\chi \, \omega_k \, |\bk|} {|\bk|^6  +  \chi^2 \, \omega_k^2} \,,
-	\label{eqbosspec}
+B(\omega_k, \bk ) = 
+\frac{2 \,\chi \, \omega_k \, |\bk|} {|\bk|^6  +  \chi^2 \, \omega_k^2} \,,
+\label{eqbosspec}
 \end{align}
-which is peaked at the frequency values of $\omega= \pm \,\omega_0 (\bk) $ with $ \omega_0 (\bk) = |\bk|^3 / \chi$. As a result, unlike the fermionic sector, here we can integrate over $\omega$ just as one does in the standard Fermi liquid case (utilizing the fact that the quasiparticle weights are sharply peaked). We approximate the bosonic spectral function as $B(\omega_k, \bk ) = \pi \left[\delta(\omega_k-\omega_0(\bk))-\delta(\omega_k  +  \omega_0(\bk)\right]
+which is peaked at the frequency values of $\omega= \pm \,\omega_0 (\bk) $ with $ \omega_0 (\bk) = |\bk|^3 / \chi$. As a result, unlike the fermionic sector, here we can integrate over $\omega_k $ just as one does in the standard Fermi liquid case (utilizing the fact that the quasiparticle distributions are sharply peaked). We approximate the bosonic spectral function as $B(\omega_k, \bk ) = \pi \left[\delta(\omega_k-\omega_0(\bk))-\delta(\omega_k  +  \omega_0(\bk)\right]
 Z_B(\bk)$, where 
 \begin{align}
 	Z_B(\bk) \equiv   
@@ -346,8 +343,7 @@ We set the upper cut-off in Eq.~\eqref{eq_ZB_int} to $|\bk|$ assuming $\omega_0(
 	\left [ 1 + n  \big (\omega_0(\bk),\bk;t, \br \big ) \right ] Z_B(\bk) \,,
 	\label{eq-bos-dist}
 \end{align}
-% Assuming the bosonic sector resumes its quasiparticle structure near thermal equilibrium as well, we define 
-where $  n \big (\omega_0(\bk), \bk ;t, \br \big ) $ is the number-density of the critical bosons, for the modes carrying momentum $\bk$ and frequency $\omega_0(\bk) $, at $(t, \br)$.
+where $  n \big (\omega_0(\bk), \bk ;t, \br \big ) $ is the number-density of the critical bosons, for the modes carrying momentum $\bk$ and frequency $\omega_0(\bk) $ at $(t, \br)$.
 
 
 
@@ -355,7 +351,7 @@ where $  n \big (\omega_0(\bk), \bk ;t, \br \big ) $ is the number-density of th
 \section{Solutions to the quantum Boltzmann equations}
 \label{secqbe}
 
-In order to derive the QBEs for the collective modes of a critical Fermi surface, we need to refer to its global properties. For the sake of simplicity, we assume a circular Fermi surface with the Fermi momentum vector give by  ${\mathbf k}_F = k_F \, \hat{{\mathbf k}}_{\text{rad}}$, where $ \hat{{\mathbf k}}_{\text{rad}}$ is the angle-dependent unit vector pointing radially outward on the Fermi surface. Moreover, our derivations will be limited to the zero temperature limit (i.e., $T=0$).
+In order to derive the QBEs for the collective modes of a critical Fermi surface, we need to refer to its global properties. For the sake of simplicity, we assume a circular Fermi surface with the Fermi momentum vector given by  ${\mathbf k}_F = k_F \, \hat{{\mathbf k}}_{\text{rad}}$, where $ \hat{{\mathbf k}}_{\text{rad}}$ is the angle-dependent unit vector pointing radially outward on the Fermi surface. Moreover, our derivations will be limited to the zero temperature limit (i.e., $T=0$).
 We use the parametrization $\mathbf {k} =  \frac{\mathbf k_1 -\mathbf k_2} {2} 
 \equiv \left( k_F + k_\perp \right) \hat{{\mathbf k}}_{\text{rad}} 
 + k_\parallel \,{\hat{ \mathbf {\theta}}}_{\mathbf k} $, $\mathbf q = \mathbf k_1 + \mathbf k_2$,  and $\theta_{\mathbf k} \,
@@ -417,7 +413,6 @@ where
 \left \lbrace n_B(\nu) +  f_0(\omega') \right \rbrace  \Big ] \,.
 \end{align}
 We note that $u(\theta_{\bp \bq};  \Omega, \bq )$ is the physical quantity that quantifies the Fermi-surface displacement.
-%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 In this paper, we solely focus on the zero-temperature limit, in which the Fermi- and Bose-distribution functions reduce to $f_0(\omega)=\Theta(-\omega)$ and $ n_B(\omega)=0$, respectively. This leads to the simplified expressions of
@@ -442,9 +437,9 @@ F^R(\theta,\Omega)
 F^I(\theta,\Omega)  =
 \frac{\sin (|\theta|/2)} {2 \,\pi} 
 \ln \Big(1 +  \frac{a^2} { \sin^6 (\theta/2)} \Big)\,,
-\quad  a =\frac{\chi \,\Omega}{8 \,k_F^3}\,,
+\quad  a =\frac{\chi \,\Omega}{8 \,k_F^3}\,.
 \end{align}
-define the real and imaginary parts of the GLF as $F=  F^R +  i \, \, F^I$. Hence, the final form of the QBE is obtained as
+Thus, $F^R$ and $F^I$ define the real and imaginary parts of the GLF, $F=  F^R +  i \, \, F^I$. Hence, the final form of the QBE is obtained as
 \begin{align}
 & \left(\bar{\Omega}- \bbq \cos\theta\right) u(\theta ;\Omega,\bq )
 +  \int \frac{d \tilde \theta} { 2\, \pi }  
@@ -454,7 +449,7 @@ F(\theta-\tilde \theta,\bar{\Omega}) = 0\,,
 \nn & \bar{\Omega}= \frac{\Omega} {v_F \,k_F} \,, \quad
 	\bbq =\frac{ |\bq| } { k_F} \,, \quad
 	\theta \equiv\theta_{\bp \bq} \,, \quad
-	\tilde \theta \equiv\theta_{\bp' \bq}\,.
+	\tilde \theta \equiv \theta_{\bp' \bq}\,,
 	\label{eqQBE1}
 \end{align}
 and $u(\theta)\equiv u(\theta;\Omega,\bq)$. It is important to note that Eq.~\eqref{eqQBE1} is a self-consistent equation in the variables $\Omega$ and $\theta$.
@@ -462,7 +457,7 @@ and $u(\theta)\equiv u(\theta;\Omega,\bq)$. It is important to note that Eq.~\eq
 
 
 
-In our earlier work \cite{ips-kazi}, we studied Eq.~\eqref{eqQBE1} in the collisionless limit such that the the imaginary part of the GLF, $F^I$, was ignored. Since $F^I$ causes the damping of the collective modes, there we assumed that the decaying parts of the modes are negligible. But here, we explicitly include the effects of $F^I$, on the same footing as $ F^R $, to quantitatively estimate if they can genuinely be ignored or whether they destabilize the collective modes. 
+In our earlier work \cite{ips-kazi}, we studied Eq.~\eqref{eqQBE1} in the collisionless limit such that the imaginary part of the GLF, $F^I$, was ignored. Since $F^I$ causes the damping of the collective modes, we assumed there that the decaying parts of the modes are negligible. But here, we explicitly include the effects of $F^I$, on the same footing as $ F^R $, to quantitatively estimate if they can genuinely be ignored or whether they destabilise the collective modes. 
 In order to make the calculation analytically tractable, we decompose $F(\theta,\Omega)$ into angular-momentum channels, indexed by $\ell \in 0 \cup \mathbb{Z}^+$. 
 
 
@@ -473,7 +468,7 @@ In order to make the calculation analytically tractable, we decompose $F(\theta,
 
 In this subsection, we remove the assumption that the bosons are in equilibrium. We allow both the fermionic and the bosonic modes to be slightly away from the equilibrium condition, with fluctuating nonequilibrium distribution functions, and study the corrections to the Fermi-surface's deformation modes.
 
-Following the same approach as with the fermions [cf. Appendix~\ref{appfer}], the bosonic part of the QBEs is captured by
+Following the same approach as with the fermions (cf. Appendix~\ref{appfer}), the bosonic part of the QBEs is captured by
 \begin{align}
 &    \left[D_0^{-1}(p)-\text{Re} [\Pi^R ( p, x_{\rm rel})] , 
 \, D^< ( p, x_{\rm rel}) \right]_{\text{PB}}- 
@@ -484,7 +479,7 @@ Following the same approach as with the fermions [cf. Appendix~\ref{appfer}], th
 \label{eqbosQBE1}
 \end{align}
 %%%%%%%%%%%%%%%%%%%%%
-Since $\text{Re}[D^R] $ is a flat function of $\omega_p$, it can be safely ignored in Eq.~\eqref{eqbosQBE1}. We note that $\Pi^R$ is purely imaginary at equilibrium and, we assume that slightly away from the equilibrium, it retains this property. With these approximations, the left-hand side of Eq.~\eqref{eqbosQBE1} simplifies to $\left[D_0^{-1}(p),
+Since $\text{Re}[D^R] $ is a flat function of $\omega_p$, it can be safely ignored in Eq.~\eqref{eqbosQBE1}. We note that $\Pi^R$ is purely imaginary at equilibrium and, we assume that, slightly away from the equilibrium, it retains this property. With these approximations, the left-hand side of Eq.~\eqref{eqbosQBE1} simplifies to $\left[D_0^{-1}(p),
 \, D^< ( k, x_{\rm rel}) \right]_{\text{PB}} = 2 \,\bp \cdot \nabla_{\br} D^<(\omega_p, \bp;t, \br )$. Transforming everything to the Fourier space, integrating over $\omega_p $ on both sides, and using Eq.~\eqref{eq-bos-dist}, we get
 \begin{align}
 2 \, \bp \cdot \nabla_{\br} n( \omega_p, \bp;t, \br ) = - \, i  
@@ -495,7 +490,7 @@ Since $\text{Re}[D^R] $ is a flat function of $\omega_p$, it can be safely ignor
 \end{align}
 %%%%%%%%%%%%%%%%%%
 %Here, $\omega_p\equiv \omega_0(\bp)$, and $n(\omega_p, \bp ;t, \br )$ is the bosonic density, for modes carrying momentum $\bp$ and energy $\omega_p$, at $(t, \br )$.
-Next, we linearize Eq.~\eqref{eqbosQBE3} near equilibrium in the small deviations of $\delta n \equiv n-n_B$ and $\delta \Pi^{<(>)} \equiv \Pi^{<(>)}-\Pi_0^{<(>)}$, where $\Pi_0^{<}$ and $\Pi_0^{>}$ are the equilibrium self-energies and $n_B$ is the equilibrium value of the bosonic distribution function. Since $n_B(\omega)=0$ at $ T =0 $, we have
+Next, we linearise Eq.~\eqref{eqbosQBE3} near equilibrium in the small deviations of $\delta n \equiv n-n_B$ and $\delta \Pi^{<(>)} \equiv \Pi^{<(>)}-\Pi_0^{<(>)}$, where $\Pi_0^{<}$ and $\Pi_0^{>}$ are the equilibrium self-energies and $n_B$ is the equilibrium value of the bosonic distribution function. Since $n_B(\omega)=0$ at $ T =0 $, we have
 %%%%%%%%%%%%%%%%%%%%
 \begin{align}
 2 \, \bp \cdot \nabla_{\br} n( \omega_p, \bp ;t, \br )  & = 
@@ -562,7 +557,7 @@ f( \nu, \theta_{\bk\bq} ;  \Omega, \bq )
 
 
 
-Now we are ready to compute the effects of $\delta n$ on $\delta f$, governed by Eqs.~\eqref{eq_int_qbe} and \eqref{eq-int-coll} (appearing in Appendix~\ref{appfer}). As for the fermionic QBE here, it takes the form
+Now we are ready to compute the effects of $\delta n$ on $\delta f$, governed by Eqs.~\eqref{eq_int_qbe} and \eqref{eq-int-coll} (appearing in Appendix~\ref{appfer}). As for the fermionic QBE here, it takes the form,
 %%%%%%%%%%%%%%%%% 
 \begin{align}
 & (\Omega-v_F\, |\bq| \cos\theta_{\bp\bq}) \,\delta f ( \omega_p, \theta_{\bp \bq}; \Omega, \bq)
@@ -603,7 +598,7 @@ i \, e^2 \, N_0 \int_0^{ 2 \, \pi }
 \label{eq_sig_gr_less}
 \end{align}
 %%%%%%%%%%
-We first observe that, since there is no correction in $\delta \text{Re} [\Sigma^R] $ when one includes the boson dynamics, the left-hand side Eq.~\eqref{eq-ferm-fin} remains unchanged. On the other hand, the correction to the collision integral due to the bosonic density fluctuations is captured by
+We first observe that, since there is no correction to $\delta \text{Re} [\Sigma^R] $ when one includes the boson dynamics, the left-hand side Eq.~\eqref{eq-ferm-fin} remains unchanged. On the other hand, the correction to the collision integral due to the bosonic density fluctuations is captured by
 %%%%%%%%%%%%%%%%%%%%%%%%  
 \begin{align}
 \delta I_{fb} & =  
@@ -640,7 +635,7 @@ In this section, we will explicitly work out the solutions to Eq.~\eqref{final_e
 %%%%%%%%%%%%%%%%%%%%%%%%%% fig 1 %%%%%%%%%%%%%%
 \begin{figure*}[t!]
 	\includegraphics[width=0.35 \textwidth]{F0}
-	\caption{Frequency dependence of the generalized Landau parameter in the $\ell =0$ angular-momentum component of $ F(\theta,\Omega)$ [cf. Eq.~\eqref{eqF0}], after resolving it into the real and imaginary parts.\label{figLF}}
+	\caption{Frequency dependence of the generalised Landau parameter in the $\ell =0$ angular-momentum component of $ F(\theta,\Omega)$ [cf. Eq.~\eqref{eqF0}], after resolving it into the real and imaginary parts.\label{figLF}}
 \end{figure*}
 %%%%%%%%%%%%%%%%%
 
@@ -689,8 +684,7 @@ When $s$ is real, which is the case considered in Ref.~\cite{ips-kazi} where we 
 	\bOmega^2\left[1 +  2 \left(\frac{\Omega_0}{\bOmega}\right)^{ \frac{1} {3} }\right] = \bbq^2\,.
 	\label{eq_no_damp}
 \end{align}
-Eq.~\eqref{eq_no_damp} indicates that, $\bOmega \sim \Omega_0$ defines a \textit{crossover scale}, such that on moving across it the dispersion acquires contrasting asymptotes. More explicitly, for $\Omega \ll \Omega_0$, one can ignore the constant term in the parenthesis and the dispersion relation reduces to $\Omega \propto \bbq^{6/5}$. On the other hand, for $\Omega \gg \Omega_0$, dispersion is linear  in momentum: $\bOmega \propto \bbq$. For $s\leq 1$, the right-hand side of Eq.~\eqref{eq-self-con} vanishes. Our analysis in Ref.~\cite{ips-kazi} shows that this regime represents the particle-hole excitations, just like a Fermi liquid, and their dispersions form an energy band. The boundary for the dispersion of this continuum of excitations is given by the condition $s=1 \Rightarrow
-\bar{\Omega}+ F^R_0(a) = \bar q $, and changes qualitatively across $\Omega_0$, such that the curve goes as (a) $  \bar \Omega \sim |{\bar \bq}|^{3/2}$ for $   \Omega < \Omega_0$, and (b) $  \bar \Omega \sim |\bar \bq| $ for ${\Omega} > {\Omega_0}$. These were the key findings of Ref.~\cite{ips-kazi}.
+Eq.~\eqref{eq_no_damp} indicates that $\bOmega \sim \Omega_0$ defines a \textit{crossover scale} --- on moving across it, the dispersion acquires contrasting asymptotes. More explicitly, for $\Omega \ll \Omega_0$, one can ignore the constant term in the parenthesis and the dispersion relation reduces to $\Omega \propto \bbq^{6/5}$. On the other hand, for $\Omega \gg \Omega_0$, dispersion is linear  in momentum: $\bOmega \propto \bbq$. For $s\leq 1$, the right-hand side of Eq.~\eqref{eq-self-con} vanishes. Our analysis in Ref.~\cite{ips-kazi} shows that this regime represents the particle-hole excitations, just like a Fermi liquid, and their dispersions form an energy band. The boundary for the dispersion of this continuum of excitations is given by the condition $ s = 1 \Rightarrow \bar{\Omega}+ F^R_0(a) = |\bar{\mathbf q}| $, and changes qualitatively across $\Omega_0$, such that the curve goes as (a) $  \bar \Omega \sim |{\bar \bq}|^{3/2}$ for $   \Omega < \Omega_0$, and (b) $  \bar \Omega \sim |\bar \bq| $ for ${\Omega} > {\Omega_0}$. These were the key findings of Ref.~\cite{ips-kazi}.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% fig 2 %%%%%%%%%%%%%
 \begin{figure}[t!]
@@ -703,7 +697,7 @@ Eq.~\eqref{eq_no_damp} indicates that, $\bOmega \sim \Omega_0$ defines a \textit
 
 
 
-In the presence of the $F_0^I$ term, the collective-mode frequency can be parametrized as $\Omega = \Omega_r +  i \, \, \Omega_i$, where a nonzero imaginary part, $ i\, \Omega_i$, is explicitly written out. This implies that we must have, in general, $s = s_r + i\, s_i$, where there a nonzero imaginary part in $s$ as well. In fact, $s_r = (\bOmega_r + F_0^R)/\bbq$ and $s_i=(\bOmega_i + F_0^I)/\bbq$. Let us focus on the positive values of the real part (i.e.,  $s_r\geq 0$), for which $|z_-|<1$, resulting in
+In the presence of the $F_0^I$ term, the collective-mode frequency can be parametrised as $\Omega = \Omega_r +  i \, \, \Omega_i$, where a nonzero imaginary part, $ i\, \Omega_i$, is explicitly written out. This implies that we must have, in general, $s = s_r + i\, s_i$, where there a nonzero imaginary part in $s$ as well. In fact, $s_r = (\bOmega_r + F_0^R)/\bbq$ and $s_i=(\bOmega_i + F_0^I)/\bbq$. Let us focus on the positive values of the real part (i.e.,  $s_r\geq 0$), for which $|z_-|<1$, resulting in
 %%%%%%%%%%%%%%%%%%%%%%%%
 \begin{align}
 	F_0^R(\bOmega) +  i \, \, F_0^I(\bOmega) = \bbq \; \sqrt{(s_r +  i \, \, s_i)^2-1} \,.
@@ -750,12 +744,12 @@ Additionally, we have a nonzero imaginary part behaving as
 	$  \bOmega_i  \simeq 
 	- \,\bOmega_r +  \Omega_0^{-3/5}
 	\left( \frac{\bbq } {2} \right)^{8/5} $. In this regime, the applicable range of values of $\bbq $ is much less than $\Omega_0$. We have kept the subleading term (in terms of powers of $\bbq$ for $\bbq \ll 1$) in ${\widetilde \Omega_r}$'s expression because the coefficients are comparable and are essential to get a good fit with the full numerical solutions. In fact, the second term gives us the deviation of $|\bOmega_i|$ from $ | \bOmega_r |$, which increases monotonically with $\bbq$.
-	%%%%%%%%%%%%%%%%
-	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	\\(2) For $ {\widetilde \Omega_r} \gg 1$, the solutions are obtained as $\bOmega_r \simeq  \bbq$ and $\bOmega_i \simeq
+%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\\(2) For $ {\widetilde \Omega_r} \gg 1$, the solutions are obtained as $\bOmega_r \simeq  \bbq$ and $\bOmega_i \simeq
 	-\,\Omega_0^{1/3} \,\bbq^{2/3} + \Omega_0^{2/3} \, \bbq^{1/3}$. In this regime, the applicable range of values of $\bbq $ is much greater than $\Omega_0$. Again, we have kept the subleading term (this time, in terms of powers of $\Omega_0$ for $ \Omega_0 \ll 1$) in ${\widetilde \Omega_r}$'s expression in order to get a good fit with the full numerical solutions.
-	%%%%%%%%%%%%%%%%%%%%
-In Fig.~\ref{fig:dispersion}, we show a comparison of the numerically-obtained solutions [of Eqs.~\eqref{eq-dis-damp} and \eqref{imaginary part}] with our analytical approximation of the power-law behaviour. Our solutions demonstrate the fact that the zero sound is indeed long-lived, because the magnitude of the imaginary part, $\bOmega_i$, is parametrically smaller than that of the real part, $\bOmega_r $. In fact, $|\Omega_i/ \Omega_r|$ falls off swiftly with $\bbq$, as illustrated in Fig.~\ref{fig:dispersion}(c). All these observations then uphold the conclusions of Ref.~\cite{ips-kazi}, where we had ignored $F^I$ and, hence, any measure of decay of the collective mode. We would like to emphasize that there too, the dispersion relation was found to behave as $ \sim \bbq^{6/5}$ and $\sim \bbq $, in the regimes below and above a characteristic crossover scale, respectively.
+%%%%%%%%%%%%%%%%%%%%
+In Fig.~\ref{fig:dispersion}, we show a comparison of the numerically-obtained solutions [of Eqs.~\eqref{eq-dis-damp} and \eqref{imaginary part}] with our analytical approximation of the power-law behaviour. Our solutions demonstrate the fact that the zero sound is indeed long-lived, because the magnitude of the imaginary part, $\bOmega_i$, is parametrically smaller than that of the real part, $\bOmega_r $. In fact, $|\Omega_i/ \Omega_r|$ falls off swiftly with $\bbq$, as illustrated in Fig.~\ref{fig:dispersion}(c). All these observations then uphold the conclusions of Ref.~\cite{ips-kazi}, where we had ignored $F^I$ and, hence, any measure of decay of the collective mode. We would like to emphasise that, there too, the dispersion relation was found to behave as $ \sim \bbq^{6/5}$ and $\sim \bbq $, in the regimes below and above a characteristic crossover scale, respectively.
 	
 	
 %%%%%%%%%%
@@ -780,7 +774,7 @@ In Fig.~\ref{fig:dispersion}, we show a comparison of the numerically-obtained s
 \label{seccode}
 
 
-In this subsection, we include the effects of $\ell >0$ modes of $F(\theta)$ as well, which provides a full description of all the collective modes arising from Eq.~\eqref{eqQBE1}. Going beyond the analysis in Sec.~\ref{seczero}, where we approximated $F(\theta,\Omega)$ by retaining only the $\ell = 0$ mode, $F_0(\Omega)$, here we keep the nonzero $\ell$-components upto arbitrary order.  This needs to be solved numerically by truncating at some high value of $\ell$. In our earlier work \cite{ips-kazi}, where $F^I$ was ignored, we ended up with two distinctly different types of excitations: particle-hole like localized modes forming an energy band (or continuum) and delocalized collective modes with discrete energy-levels. Here, we incorporate the $F^I$-part appropriately, instead of setting it to zero, and investigate the fate of the collective modes in an exact way.
+In this subsection, we include the effects of $\ell >0$ modes of $F(\theta)$ as well, which provides a full description of all the collective modes arising from Eq.~\eqref{eqQBE1}. Going beyond the analysis in Sec.~\ref{seczero}, where we approximated $F(\theta,\Omega)$ by retaining only the $\ell = 0$ mode, $F_0(\Omega)$, here we keep the nonzero $\ell$-components upto arbitrary order.  This needs to be solved numerically by truncating at some high value of $\ell$. In our earlier work \cite{ips-kazi}, where $F^I$ was ignored, we ended up with two distinctly different types of excitations: particle-hole like localised modes forming an energy band (or continuum) and delocalised collective modes with discrete energy-levels. Here, we incorporate the $F^I$-part appropriately, instead of setting it to zero, and investigate the fate of the collective modes in an exact way.
 
 
 
@@ -791,19 +785,17 @@ The expression in Eq.~\eqref{eqQBE1} is decomposed into angular momentum compone
 	& u(\theta) =  u_0+2 \, \sum_{\ell=1} ^\infty  u_{\ell} \cos(\ell \, \theta )\,,
 \quad
 F (\theta,\Omega) = F_0(\Omega) + 2  \,\sum_{\ell=1} ^\infty  F_\ell (\Omega) \cos(\ell \, \theta )\,,
-\quad F_{\ell}(\Omega) =  F_{\ell}^R(\Omega)+i \, F_{\ell}^I(\Omega)\,.
+\quad F_{\ell}(\Omega) =  F_{\ell}^R(\Omega) + i \, F_{\ell}^I(\Omega)\,.
 \end{align}
 %%%%%%%%%%%%%%%
-Here, $ u_{\ell}$ and $F_\ell({\Omega})$ are the amplitudes of $u(\theta)$ and $F(\theta,\Omega)$ in the $\ell$-channels, respectively. Since the fermion-fermion interactions depend only on the magnitude of the momentum-exchange encoded via $F(\theta,\Omega)$, they must comprise only even-parity configurations obeying $\theta \rightarrow  -\theta $. That motivates us to study the even-parity modes of $u(\theta)$.\footnote{We defer from providing an analysis of the odd-parity deformations [viz., $u(-\theta)=-u(\theta)$] as they are subleading compared to the even ones, and give rise to no collective-mode solutions~\cite{ips-kazi}.} 
-%%%%%%%%
-Plugging the expressions from Eqs.~\eqref{eq_decomp} into Eq.~\eqref{eqQBE1}, we find that the mother QBE decomposes into a set of recursive equations between different $\ell$ components, as shown below:
+Here, $ u_{\ell}$ and $F_\ell({\Omega})$ are the amplitudes of $u(\theta)$ and $F(\theta,\Omega)$ in the $\ell$-channels, respectively. Since the fermion-fermion interactions depend only on the magnitude of the momentum-exchange encoded via $F(\theta,\Omega)$, they must comprise only even-parity configurations obeying $\theta \rightarrow  -\theta $. That motivates us to study the even-parity modes of $u(\theta)$.\footnote{We defer from providing an analysis of the odd-parity deformations [viz., $u(-\theta)=-u(\theta)$] as they are subleading compared to the even ones, and give rise to no collective-mode solutions~\cite{ips-kazi}.} Plugging in the expressions from Eqs.~\eqref{eq_decomp} into Eq.~\eqref{eqQBE1}, we find that the mother QBE decomposes into a set of recursive equations between different $\ell$ components, as shown below:
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{align}
 \label{zero_mode_even}  
 & \bar{\Omega}\,u_0-\bar{q} \,u_1 = 0 \,,\quad
 u_{\ell}-  \dfrac{ 2\,\bar{\Omega}}{\bar{q}}
 \left(1+\dfrac{F_0(\bar{\Omega})-F_{\ell-1}(\bar{\Omega})} {\bar{\Omega}}\right) u_{\ell-1}
-+ u_{\ell-2} = 0 \text{ for } \ell \geq 2.
++ u_{\ell-2} = 0 \text{ for } \ell \geq 2 \text{ and } \bar{q} \equiv |\bar{\mathbf q}|.
 \end{align} 
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 One can easily identify that these equations are identical in form to those characterising a one-dimensional non-Hermitian tight-binding model, if we interpret the $\ell$-indices as playing the role of the lattice-site labels. In order to obtain the solutions, we need to solve for the coupled equations numerically by truncating the equations at some reasonable finite value of $\ell$, which we indicate by $N-1$.
@@ -811,7 +803,7 @@ One can easily identify that these equations are identical in form to those char
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
 \begin{figure}[t!]
 \includegraphics[width = 0.75 \textwidth]{compare-models}
-\caption{Comparing the dispersion relation of the zero-sound mode, capturing the behaviour of both the real and imaginary parts ($\bOmega_r$ and $\bOmega_i $), calculated from the $F_0$ and $F_\ell$ models. While the left panel shows the extreme small-$q$ regime, the right one corresponds to somewhat larger-$q$ regime.\label{fig:zero_sound_disp}}
+\caption{Comparing the dispersion relation of the zero-sound mode, capturing the behaviour of both the real and imaginary parts ($\bOmega_r$ and $\bOmega_i $), calculated from the $F_0$ and $F_\ell$ models. While the left panel shows the extreme small-$|\bar {\mathbf q}|$ regime, the right one corresponds to somewhat larger-$|\bar {\mathbf q}|$ regime.\label{fig:zero_sound_disp}}
 \end{figure} 
 %%%%%%%%%%%%%%%%%%%%%%%
 
@@ -836,10 +828,9 @@ The condition of $ M(\bar{\Omega},\bar{q}) \; U=0$ reduces to $\det  [M(\bar{\Om
 
 
 
-In agreement with our earlier findings in Ref.~\cite{ips-kazi}, we identify two kinds of excitations: (1) An isolated region, analogous to the zero-sound solution of a Fermi liquid, in the regime labelled as $ \Omega = \Omega_{zs} $. We will label it as the zero sound of the critical Fermi surface of the NFL. (2) A continuum region which can be interpreted as the particle-hole continuum, labelled as $\Omega = \Omega_{ph} $. 
-%The first two cases correspond to the small and the last case corresponds to the large momentum regime as discussed in Fig.~\ref{fig:dispersion}. 
-We find that, on including generic $\ell$ components, many new isolated regions develop, in addition to the zero sound [cf. Fig.~\ref{figevalue}(b)-(d)]. With decreasing momentum-values, the number ($n$) of these extra modes mode increases, and $ n \rightarrow \infty $ in the limit $\bq\rightarrow 0$, connecting the particle-hole continuum to the zero sound solution continuously. This is a qualitatively different scenario not captured by the drastic simplification of the $F_0$ model. Because of the appearance of these new solutions, the zero-sound solution (which is the farthermost island measured from the extented regions of the particle-hole continuum in the density-plots) is pushed more towards the $\bar{\Omega}_i = 0$ axis --- this shows that, in reality, the zero sound is much more longer-lived compared to what is found within the $F_0$ model [cf. Fig.~\ref{fig:dispersion}]. We track the position of the center of the zero-sound island in the $\bar \Omega $-plane, as a function of $\bar q $, and extract the dispersion relation of the zero sound mode in Fig.~\ref{fig:zero_sound_disp}.
-Comparing its behaviour with the results from the $F_0$ model, we find that the discrepancy grows stronger and stronger as we move towards the lower and lower values of the momentum. Intriguingly, in the $ \mathbf q \rightarrow 0$ limit, $\Omega_i(\bq)\approx 0 $, while $\Omega_r(\bq)\propto |\bq| $ (by using a fitting function, we find that $ \Omega_r(\bq)\sim |\mathbf q|^{0.96}$). Therefore, in the extreme low-$|\mathbf q|$, the scalings differ from those of the $F_0$-model (discussed in Sec.~\ref{seczero}), as visualised explicitly in the left panel of Fig.~\ref{fig:zero_sound_disp}. At somewhat higher momenta, the qualitative behaviour becomes similar, as observed in the right panel of Fig.~\ref{fig:zero_sound_disp}.
+In agreement with our earlier findings in Ref.~\cite{ips-kazi}, we identify two kinds of excitations: (1) An isolated region, analogous to the zero-sound solution of a Fermi liquid, in the regime labelled as $ \Omega = \Omega_{zs} $. We will designate it as the zero sound of the critical Fermi surface of the NFL. (2) A continuum region which can be interpreted as the particle-hole continuum, labelled as $\Omega = \Omega_{ph} $.
+We find that, on including generic $\ell$ components, many new isolated regions develop, in addition to the zero sound [cf. Fig.~\ref{figevalue}(b)-(d)]. With decreasing momentum-values, the number ($n$) of these extra modes increases, and $ n \rightarrow \infty $ in the limit $\bq\rightarrow 0$, connecting the particle-hole continuum to the zero sound solution continuously. This is a qualitatively different scenario not captured by the drastic simplification of the $F_0$ model. Because of the appearance of these new solutions, the zero-sound solution (which is the farthermost island measured from the extended regions of the particle-hole continuum in the density-plots) is pushed more towards the $\bar{\Omega}_i = 0$ axis --- this shows that, in reality, the zero sound is much longer-lived compared to what is found within the $F_0$ model [cf. Fig.~\ref{fig:dispersion}]. We track the position of the center of the zero-sound island in the $\bar \Omega $-plane, as a function of $\bar q $, and extract the dispersion relation of the zero-sound mode in Fig.~\ref{fig:zero_sound_disp}.
+Comparing its behaviour with the results from the $F_0$ model, we find that the discrepancy grows stronger and stronger as we move towards the lower and lower values of the momentum. Intriguingly, in the $ \mathbf q \rightarrow 0$ limit, $\Omega_i(\bq)\approx 0 $, while $\Omega_r(\bq)\propto |\bq| $ (by using a fitting function, we find that $ \Omega_r(\bq)\sim |\mathbf q|^{0.96}$). Therefore, in the extreme low-$|\mathbf q|$ limit, the scalings differ from those of the $F_0$-model (discussed in Sec.~\ref{seczero}), as visualised explicitly in the left panel of Fig.~\ref{fig:zero_sound_disp}. At somewhat higher momenta, the qualitative behaviour becomes similar, as observed in the right panel of Fig.~\ref{fig:zero_sound_disp}.
 	
 
 In order to characterise the new discrete modes corresponding to the extra islands, we label the $\Omega$-values of their centres as $\Omega_\zeta (\bq)$. We have computed (numerically) the corresponding eigenvector, $U^\zeta$, satisfying $M(\bar{\Omega}_\zeta ,\bar q) \; U^\zeta = 0$. Defining $ U^\zeta_{\ell+1}$ as the $(\ell+1)^{\rm th}$-component of $U^\zeta $, the Fermi-surface displacement can be expressed as $u(\theta ) = u^\zeta (\theta)$, where
@@ -859,19 +850,20 @@ is the factor for normalizing $U^\zeta$. Fig.~\ref{figfermi} illustrates the def
 \section{Discussions, summary, and future outlook}
 \label{secsum}
 	
-	%%%%%%%%%%%%%%%%%%%	fig FS distortion %%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%	fig FS distortion %%%%%%%%%%%%
 \begin{figure}[t!]
 \includegraphics[width = 0.27\textwidth]{fermisurface}
 \caption{Schematic plot of the deformations of the Fermi surface arising from the collective-mode solutions of the three tiny islands visible in Fig.~\ref{figevalue}(c), corresponding to $\bar q  = 0.01$. The $\bar \Omega$-values of the centres of these islands are shown in the plot-legends. The blue circle represents the undeformed Fermi surface.\label{figfermi}}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%	
-In this paper, we have analysed the nature of generic displacements of the critical Fermi surface for the NFL system arising at the Ising-nematic QCP, by using the quantum-Boltzmann-equation formalism applicable for our NFL scenario. By incorporating a generalized fermionic distribution function, we have derived the self-consistent equations whose solutions give us the functional forms of the Fermi-surface displacements as well as their dispersions. In particular, we have been focused on determining the dispersion and stability of the low-energy and low-momentum excitations/collective modes, arising from these displacements. Compared with our earlier work, we have included here the effects of damping, originating from the collision integral for the fermionic QBE. We have discussed the implications in two scenarios: (1) The simplistic $F_0$ model, where we are able to find an analytical solution by simply setting $F(\theta,\Omega)=F_0(\Omega)$, retaining only the $\ell=0$ angular-momentum component. (2) The $F_\ell$ model, where generic $\ell\neq 0$ components are included, which warrants a numerical simulation to obtain the explicit results.  A summary of our findings is elucidated below:
+
+In this paper, we have analysed the nature of generic displacements of the critical Fermi surface for the NFL system arising at the Ising-nematic QCP, by using the quantum-Boltzmann-equation formalism applicable for our NFL scenario. By incorporating a generalised fermionic distribution function, we have derived the self-consistent equations whose solutions give us the functional forms of the Fermi-surface displacements as well as their dispersions. In particular, we have focused on determining the dispersion and stability of the low-energy and low-momentum excitations/collective modes, arising from these displacements. Compared with our earlier work, we have included here the effects of damping, originating from the collision integral for the fermionic QBE. We have discussed the implications in two scenarios: (1) The simplistic $F_0$ model, where we are able to find an analytical solution by simply setting $F(\theta,\Omega)=F_0(\Omega)$, retaining only the $\ell=0$ angular-momentum component. (2) The $F_\ell$ model, where generic $\ell\neq 0$ components are included, which warrants a numerical simulation to obtain the explicit results.  A summary of our findings is elucidated below:
 %%%%%%%%%%%%%%%%%%%%%
 \begin{enumerate}
 	
-\item Within the $F_0$ model, the dispersion of the zero sound of our NFL exhibits a $\Omega_r \sim |\mathbf q|^{6/5}$ behaviour at the lowest energy scales, unlike the $\Omega_r \sim |\mathbf q|$ dependence predicted from the Fermi-liquid theory. This fractional-power-law dependence is seen to morph into an $ \Omega_r \sim |\mathbf q|$ behaviour when the energy is cranked up above a crossover scale, $\Omega_0$. As a consequence of accounting for the collision terms, the dispersion acquires a nonzero imaginary part, $\Omega_i $, which corresponds to damping. However, $|\Omega_i|$ is parametrically much smaller than $\Omega_r$, making the $\ell = 0$ mode a long-lived excitation. 
+\item Within the $F_0$ model, the dispersion of the zero sound of our NFL exhibits a $\Omega_r \sim |\mathbf q|^{6/5}$ behaviour at the lowest-energy scales, unlike the $\Omega_r \sim |\mathbf q|$ dependence predicted from the Fermi-liquid theory. This fractional-power-law dependence is seen to morph into an $ \Omega_r \sim |\mathbf q|$ behaviour when the energy is cranked up above a crossover scale, $\Omega_0$. As a consequence of accounting for the collision terms, the dispersion acquires a nonzero imaginary part, $\Omega_i $, which corresponds to damping. However, $|\Omega_i|$ is parametrically much smaller than $\Omega_r$, making the $\ell = 0$ mode a long-lived excitation. 
 	$\Omega_i$ is also seen to cross over to distinct power-law characteristics with respect to $\Omega_0$.
-	As a function of the mode's momentum, the ratio of $|\Omega_i /\Omega_r |$ decays rapidly in a monotonic way (in all the applicable energy ranges), and becomes more and more negligible.
+	As a function of the mode's momentum, the ratio $|\Omega_i /\Omega_r |$ decays rapidly in a monotonic way (in all the applicable energy ranges), and becomes more and more negligible.
 	
 \item Incorporating the $F_\ell$ model, for very small momenta, the nature of the zero sound is found to have linear dependence on momentum and a negligible imaginary part. Intriguingly, in addition to the zero-sound solution, many new collective-mode excitations of the critical Fermi surface emerge, whose $\Omega $-values lie between those of the zero sound and particle-hole continuum (when visualised in the complex $\Omega$-plane). At extremely-low momenta, the number of these additional modes proliferate [cf. Fig.~\ref{figevalue}(b)]. However, with increasing $\bar q$, the extra islands disappear progressively and the overall behaviour crosses over to the results obtained from the $F_0$ model. 
 	
@@ -879,26 +871,24 @@ In this paper, we have analysed the nature of generic displacements of the criti
 %%%%%%%%%%%%%%%%%%%%%%
 We have extended our calculations to include the effects of the bosonic density fluctuations as well. Interestingly, the $T=0$ results for the Fermi-surface displacements remain unchanged under this generalisation.
 
-
+Let us now compare our studies with other relevant studies related to NFLs:
 \begin{enumerate}
 %%%%%%%%%%%%%%%%%%%
 \item Relation to earlier Boltzmann and kinetic approaches:
-\\Traditional Boltzmann or kinetic-equation treatments of quantum critical metals typically rely either on the existence of long-lived quasiparticles or focus on the collisionless regime. In contrast, our analysis formulates quantum Boltzmann equations directly in terms of Keldysh Green’s functions and does not assume quasiparticle-coherence in the frequency space \cite{prange, kim_qbe, ips-zero-mode}. The key new element relative to earlier treatments is the systematic inclusion of \textit{collision-induced damping} arising from the imaginary parts of the GLFs. This allows us to analyze not only collective-mode dispersions but also their intrinsic damping across generic angular-momentum channels at finite momenta ($\mathbf q$) and frequencies ($\mathbf \Omega$).
+\\Traditional Boltzmann or kinetic-equation treatments of quantum critical metals typically rely either on the existence of long-lived quasiparticles or focus on the collisionless regime. In contrast, our analysis formulates quantum Boltzmann equations directly in terms of Keldysh Green’s functions and does not assume quasiparticle-coherence in the frequency space \cite{prange, kim_qbe, ips-zero-mode}. The key new element relative to earlier treatments is the systematic inclusion of \textit{collision-induced damping} arising from the imaginary parts of the GLFs. This allows us to analyse not only collective-mode dispersions, but also their intrinsic damping across generic angular-momentum channels at finite momenta ($\mathbf q$) and frequencies ($\mathbf \Omega$).
 %%%%%%%%%%%%%%
 \item Relation to bosonization-based approaches:
-\\Recent bosonization-based treatments of NFL states \cite{yrkv-42wd} emphasise on kinematic constraints and operator-level formulations of Fermi-surface fluctuations. While these methods provide valuable insights into universal scaling properties, they typically do not incorporate collision integrals or damping effects in a transparent kinetic form. Our approach is complementary: it retains explicit momentum resolution along the Fermi surface and provides a direct kinetic description of collective modes, including damping, which is not readily accessible in current bosonization frameworks.
+\\Recent bosonization-based treatments of NFL states \cite{yrkv-42wd} emphasise on kinematic constraints and operator-level formulations of Fermi-surface fluctuations. While these methods provide valuable insights into universal scaling properties, they typically do not incorporate collision integrals or damping effects in a transparent kinetic-equation form. Our approach is complementary: it retains explicit momentum resolution along the Fermi surface and provides a direct kinetic description of collective modes, including damping, which is not readily accessible in current bosonization frameworks.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \item Relation to SYK-based models:
-\\SYK-inspired models are based on large-$N$ formulation (e.g., Ref.~\cite{PhysRevB.103.235129}), and depend crucially on the large-$N$ limit. Their microscopic formulation is fundamentally different form working the QFT-based action adopted here. We take the leading order fermion-boson interaction descibing the Ising-Nematic QCP and the controlled approximation dealing with this strongly-couple theory is well-established within the dimensional-regularization scheme put forward in Refs.~\cite{Lee-Dalid, ips-uv-ir1}. Our QFT analysis has no dependence whatsoever on the number of flavours ($N$) of fermions and its validity is not contingent upon the large-$N$ limit.
-%%%%%%%%%%%%%%%%
-In particular, we have not found an exhaustive analysis an exhaustive analysis of the collective modes of critical Fermi surfaces including the full effects of the collision integrals like we have done, and neither is there a full explanation of the emergent collective modes quantified by their structure as well as $(\Omega, \, \mathbf q)$-dependence. In other words, our QBE framework is designed to address all these aspects in aholisitc way by incorporating the spatial structure, Fermi-surface geometry, energy-dependence, and finite-$\mathbf q $ dynamics, which are currently lacking in those SYK-based studies.
+\\SYK-inspired models are based on large-$N$ formulation (e.g., Ref.~\cite{PhysRevB.103.235129}) and depend crucially on the large-$N$ limit. Their microscopic formulation is fundamentally different from working with the QFT-based action adopted here. We take the leading-order fermion-boson interaction describing the Ising-Nematic QCP and the controlled approximation dealing with this strongly-coupled theory is well-established within the dimensional-regularization scheme put forward in Refs.~\cite{Lee-Dalid, ips-uv-ir1}. Our QFT analysis has no dependence whatsoever on the number of flavours ($N$) of fermions and its validity is not contingent upon the large-$N$ limit. In particular, we have not found an exhaustive analysis of the collective modes of critical Fermi surfaces, including the full effects of the collision integrals like we have done, and neither is there a full explanation of the emergent collective modes quantified by their structure as well as $(\Omega, \, \mathbf q)$-dependence. In other words, our QBE framework is designed to address all these aspects in a holisitc way by incorporating the spatial structure, Fermi-surface geometry, energy-dependence, and finite-$\mathbf q $ dynamics, which are currently lacking in those SYK-based studies.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \item Novelty and limitations:
 \\The principal new contributions of our work, beyond earlier works, can be summarised as
 \begin{itemize}
 \item inclusion of frequency-dependent \textit{complex} GLFs encoding collision-induced damping;
 \item systematic analysis of collective modes in generic angular-momentum channels;
-\item extension of the QBE framework to finite $(\Omega,q)$ beyond the collisionless limit.
+\item extension of the QBE framework to finite $(\Omega,\mathbf q)$ beyond the collisionless limit.
 Limitations, if any, can be attributed to carrying out our analysis in the $T\rightarrow 0$ regime.
 \end{itemize}
 \end{enumerate} 
@@ -942,7 +932,7 @@ and
 	\Theta(t_2-t_1) \, D^<(x_1,x_2) \, ,\\
 	D_{\bar{t}}(x_1,x_2) & = \Theta(t_2-t_1) \, D^>(x_1,x_2)  +  \Theta(t_1-t_2) \, D^<(x_1,x_2) \,.
 \end{align}
-Here, $x_{1} \equiv (\br_{1}, t_{1},)$ and $x_{2} \equiv (\br_{2}, t_{2})$ (using the condensed notation for the spacetime coordinates), and $\psi (x)$ [$\phi(x)$] is the the fermionic [bosonic] quantum field. The Green's functions shown above are related to the retarded ($G^R$), advanced ($G^A$), and Keldysh ($G^K$) Green's functions in the following way:
+Here, $x_1 \equiv (t_1, {\mathbf r}_1)$ and $x_2 \equiv (t_2, {\mathbf r}_2)$ (using the condensed notation for the spacetime coordinates), and $\psi (x)$ [$\phi(x)$] is the the fermionic [bosonic] quantum field. The Green's functions shown above are related to the retarded ($G^R$), advanced ($G^A$), and Keldysh ($G^K$) Green's functions in the following way:
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 \begin{align}
 	G^R & = G_t -G^< =G^> -G_{\bar{t}} \,, \quad
@@ -950,26 +940,26 @@ Here, $x_{1} \equiv (\br_{1}, t_{1},)$ and $x_{2} \equiv (\br_{2}, t_{2})$ (usin
 	G^K =G^<  + G^> \,,
 	\label{eq-gegkgless}
 \end{align}
-where, for notational convenience, we have dropped the functional dependence on $(x_1, x_2)$. A straightforward manipulation, using Eq.~\eqref{eq-gegkgless}, leads to
+where, for notational convenience, we have dropped the functional dependence on $x_1$ and $ x_2$. A straightforward manipulation, using Eq.~\eqref{eq-gegkgless}, leads to
 %%%%%%%%%%%%%%%%%%%%%%
 \begin{align}
 	G_t & = \frac{G^< + G^>}{2}  +  \text{Re} [G^R ]\,, \quad
 	G_{\hat{t}} =\frac{G^< + G^>}{2}- \text{Re} [G^R] \,.
 \end{align}
 %%%%%%%%%%%%
-Analogous relations hold for the critical bosons as well. The fermionic and bosonic self-energy matrices, $\tilde{\Sigma}$ and $\tilde{\Pi}$, have an  $2\times2$ matrix structure analogous to Eq.~\eqref{eq-matrix-green}. They follow the Dyson equations, viz.
+Analogous relations hold for the critical bosons as well. The fermionic and bosonic self-energy matrices, $\tilde{\Sigma}$ and $\tilde{\Pi}$, have a $2\times2$ matrix structure, analogous to Eq.~\eqref{eq-matrix-green}. They follow the Dyson equations, viz.
 \begin{align}
 	(G_0^{-1}-\tilde{\Sigma}) \circ  \tilde{G} & = 1 \,, \quad
 	(D_0^{-1}-\tilde{\Pi}) \circ  \tilde{D} =1.
 	\label{eq-fer-bos}
 \end{align}
-Here, the symbol $ \circ $ represents multiplication both in spacetime and matrix structure [for example, we have $A \circ  B = \int dx_2 \, A_{i,j}(x_1,x_2) \, B_{j,k}(x_2,x_3)$]. $G_0$ and $D_0$ are the noninteracting Green's functions for the fermion and bosons respectively, which evaluate to
+Here, the symbol $ \circ $ represents multiplication both in spacetime and matrix structure [for example, we have $A \circ  B = \int dx_2 \, A_{i,j}(x_1,x_2) \, B_{j,k}(x_2,x_3)$]. $G_0$ and $D_0$ are the noninteracting Green's functions for the fermions and bosons, respectively, which evaluate to
 \begin{align}
 	G_0^{-1}(\omega_k , \bk ) & = \omega_k - \xi_\bk  \text{ and }
-	D_0^{-1}(\omega_k , \bk ) =\omega_k ^2-\bk^2 \,,
+	D_0^{-1}(\omega_k , \bk ) =\omega_k ^2-\bk^2 .
 \end{align}
-where $\xi_\bk$ is the bare fermionic dispersion. 
-	
+Here, $\xi_\bk$ denotes the bare fermionic dispersion. 
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Equilibrium Green's functions and spectral properties} 
 \label{appeq}
@@ -982,7 +972,7 @@ D_0^<(\omega_k, \bk ) & = -\, i \, \, n_B(\omega_k) \, B(\omega_k, \bk )\,, \qua
 D_0^>(\omega_k, \bk )  =  -\, i \, [ 1 + n_B(\omega_k) ]\,B(\omega_k, \bk )\,,
 \label{eq-D-more-less}
 \end{align}
-where $ f_0(\omega) = ( e^{\beta \, \omega} + 1 )^{-1} $ and $n_B (\omega) = ( e^{\beta \, \omega} - 1 )^{-1}  $ are the Fermi-Dirac and Bose-Einstein distributions functions, respectively, at temperature $T=1/\beta$. While $A(\omega_k, \bk )$ and $B(\omega_k, \bk ) $ denote the spectral functions for the fermions and bosons, respectively, we have used a subscript ``0'' is used to denote the equilibrium state. 
+where $ f_0(\omega) = ( e^{\beta \, \omega} + 1 )^{-1} $ and $n_B (\omega) = ( e^{\beta \, \omega} - 1 )^{-1}  $ are the Fermi-Dirac and Bose-Einstein distributions functions, respectively, at temperature $T=1/\beta$. While $A(\omega_k, \bk )$ and $B(\omega_k, \bk ) $ denote the spectral functions for the fermions and bosons, respectively, we have used a subscript ``0'' to denote the equilibrium state. 
 
 Applying Eq.~\eqref{eq-fer-bos} to the equilibrium condition, the standard expressions for the retarded Green's functions turn out to be
 \begin{align}
@@ -1009,14 +999,14 @@ The spectral functions are related to these Green's functions through $A(\omega_
 		+  \left[\text{Im} [ \Pi_0^R(\omega_k, \bk )] \right]^2} \,.
 \end{align}
 %%%%%%%%%%%%%%%%%%%%%%%
-Here, $\xi_\bk$ denotes the bare fermionic dispersion. 
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Fermionic part of the QBEs}
 \label{appfer}
 
-In order to derive the QBE, we employ the Dyson equation for the fermions [cf. Eq.~\eqref{eq-fer-bos}], relevant for the $G^<$ component. While the details can be found in Refs.~\cite{kim1995quantum, prange, ips-kazi, ips-zero-mode}, we present a brief outline for the convenience of the reader and, also, for setting up the notations. We multiply both the sides of Eq.~\eqref{eq-fer-bos} with $\tilde{G}$ from the left and $\tilde{G}^{-1}$ from the right, subtract the result from Eq.~\eqref{eq-fer-bos}, and write the resulting $(1,2)^{\rm th}$ matrix-element as  
+In order to derive the QBE, we employ the Dyson equation for the fermions [cf. Eq.~\eqref{eq-fer-bos}], relevant for the $G^<$ component. While the details can be found in Refs.~\cite{kim_qbe, prange, ips-kazi, ips-zero-mode}, we present a brief outline for the convenience of the reader and, also, for setting up the notations. We multiply both the sides of Eq.~\eqref{eq-fer-bos} with $\tilde{G}$ from the left and $\tilde{G}^{-1}$ from the right, subtract the result from Eq.~\eqref{eq-fer-bos}, and write the resulting $(1,2)^{\rm th}$ matrix-element as  
 %%%%%%%%%%%%%%
 \begin{align}
 	G_0^{-1}\circ G^<-G^<\circ G_0^{-1} & = 
@@ -1051,7 +1041,7 @@ where \begin{align}
 
 
 
-In order to study the dynamics not too far from the equilibrium, we linearize the resulting equation in the deviations parametrized by $\delta G^< \equiv G^<-G^<_0$, $\delta \text{Re}[G^R] \equiv \text{Re}[G^R] - \text{Re}[G^R_0]$, $\delta \Sigma^{<(>)}\equiv \Sigma^{<(>)}-\Sigma^{<(>)}_0$, and $\delta \text{Re}[\Sigma^R ] \equiv \text{Re}[\Sigma^R] 
+In order to study the dynamics not too far from the equilibrium, we linearise the resulting equation in the deviations parametrised by $\delta G^< \equiv G^<-G^<_0$, $\delta \text{Re}[G^R] \equiv \text{Re}[G^R] - \text{Re}[G^R_0]$, $\delta \Sigma^{<(>)}\equiv \Sigma^{<(>)}-\Sigma^{<(>)}_0$, and $\delta \text{Re}[\Sigma^R ] \equiv \text{Re}[\Sigma^R] 
 - \text{Re}[\Sigma^R_0]$. All these exercises result in
 \begin{align}
 	\label{QBEf}  
@@ -1128,7 +1118,7 @@ the Fourier-transformed counterpart takes the form of
 	\label{sigma-eq2}
 \end{align}
 %%%%%%%%%%%%%%%%
-where $N_0$ is the fermionic density-of-states at the Fermi surface. Also, we have used the property $D^>( k, x_{\rm rel}) =
+where $N_0$ is the fermionic density-of-states at the Fermi surface. Also, we have used the property, $D^>( k, x_{\rm rel}) =
 D^<(- k, x_{\rm rel})$, applicable for real bosons. 
 
 
@@ -1204,7 +1194,7 @@ In an attempt to further simplify, we note that $D_0^R(\nu, \bk-\bp)$ [cf. Eq.~\
 \label{reimD}
 \end{align}
 
-Now, we are in a position to plug the expressions for the self energies into the left-hand side of Eq.~\eqref{eq_int_qbe}, which reduces to
+Now, we are in a position to plug the expressions for the self-energies into the left-hand side of Eq.~\eqref{eq_int_qbe}, which reduces to
 %%%%%%%%%%%%%%%%%%%
 \begin{align}
 	\label{eqlhs}  

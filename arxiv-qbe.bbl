@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{59}%
+\begin{thebibliography}{58}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -174,15 +174,15 @@
   {https://doi.org/10.1103/PhysRevB.107.125142} {\bibfield  {journal} {\bibinfo
    {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {107}},\ \bibinfo
   {pages} {125142} (\bibinfo {year} {2023})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {{Mandal}}(2025)}]{ips-moire-cdw}%
+\bibitem [{\citenamefont {{Mandal}}(2026)}]{ips-cdw-moire}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {I.}~\bibnamefont
   {{Mandal}}},\ }\bibfield  {title} {\bibinfo {title} {{Non-Fermi liquid
   behaviour of CDW instabilities in fractionally-filled moir{\'e} flatbands}},\
-  }\href {https://doi.org/https://doi.org/10.1016/j.aop.2025.169925} {\bibfield
+  }\href {https://doi.org/https://doi.org/10.1016/j.aop.2025.170329} {\bibfield
    {journal} {\bibinfo  {journal} {Annals of Physics}\ }\textbf {\bibinfo
-  {volume} {474}},\ \bibinfo {pages} {169925} (\bibinfo {year}
-  {2025})}\BibitemShut {NoStop}%
+  {volume} {486}},\ \bibinfo {pages} {170329} (\bibinfo {year}
+  {2026})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Eberlein}\ \emph {et~al.}(2016)\citenamefont
   {Eberlein}, \citenamefont {Mandal},\ and\ \citenamefont
   {Sachdev}}]{ips-subir}%
@@ -288,9 +288,11 @@
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~A.}\ \bibnamefont
   {Abrikosov}},\ }\bibfield  {title} {\bibinfo {title} {Calculation of critical
-  indices for zero-gap semiconductors},\ }\href@noop {} {\bibfield  {journal}
-  {\bibinfo  {journal} {Sov. Phys.-JETP}\ }\textbf {\bibinfo {volume} {39}},\
-  \bibinfo {pages} {709} (\bibinfo {year} {1974})}\BibitemShut {NoStop}%
+  indices for zero-gap semiconductors},\ }\href
+  {https://www.jetp.ras.ru/cgi-bin/e/index/e/39/4/p709?a=list} {\bibfield
+  {journal} {\bibinfo  {journal} {Sov. Phys.-JETP}\ }\textbf {\bibinfo {volume}
+  {39}},\ \bibinfo {pages} {709} (\bibinfo {year} {1974})}\BibitemShut
+  {NoStop}%
 \bibitem [{\citenamefont {Moon}\ \emph {et~al.}(2013)\citenamefont {Moon},
   \citenamefont {Xu}, \citenamefont {Kim},\ and\ \citenamefont
   {Balents}}]{moon-xu}%
@@ -646,8 +648,8 @@
   {https://doi.org/10.1103/PhysRev.134.A566} {\bibfield  {journal} {\bibinfo
   {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume} {134}},\ \bibinfo {pages}
   {A566} (\bibinfo {year} {1964})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Kim}\ \emph {et~al.}(1995{\natexlab{a}})\citenamefont
-  {Kim}, \citenamefont {Lee},\ and\ \citenamefont {Wen}}]{kim_qbe}%
+\bibitem [{\citenamefont {Kim}\ \emph {et~al.}(1995)\citenamefont {Kim},
+  \citenamefont {Lee},\ and\ \citenamefont {Wen}}]{kim_qbe}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.~B.}\ \bibnamefont
   {Kim}}, \bibinfo {author} {\bibfnamefont {P.~A.}\ \bibnamefont {Lee}},\ and\
@@ -656,7 +658,7 @@
   interacting with a gauge field},\ }\href
   {https://doi.org/10.1103/PhysRevB.52.17275} {\bibfield  {journal} {\bibinfo
   {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {52}},\ \bibinfo
-  {pages} {17275} (\bibinfo {year} {1995}{\natexlab{a}})}\BibitemShut {NoStop}%
+  {pages} {17275} (\bibinfo {year} {1995})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Kamenev}(2011)}]{kamenev}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
@@ -664,17 +666,6 @@
   {\bibinfo {title} {Field Theory of Non-Equilibrium Systems}}}\ (\bibinfo
   {publisher} {Cambridge University Press},\ \bibinfo {year}
   {2011})\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Kim}\ \emph {et~al.}(1995{\natexlab{b}})\citenamefont
-  {Kim}, \citenamefont {Lee},\ and\ \citenamefont {Wen}}]{kim1995quantum}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.~B.}\ \bibnamefont
-  {Kim}}, \bibinfo {author} {\bibfnamefont {P.~A.}\ \bibnamefont {Lee}},\ and\
-  \bibinfo {author} {\bibfnamefont {X.-G.}\ \bibnamefont {Wen}},\ }\bibfield
-  {title} {\bibinfo {title} {{Quantum Boltzmann equation of composite fermions
-  interacting with a gauge field}},\ }\href
-  {https://doi.org/10.1103/PhysRevB.52.17275} {\bibfield  {journal} {\bibinfo
-  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {52}},\ \bibinfo
-  {pages} {17275} (\bibinfo {year} {1995}{\natexlab{b}})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Han}\ \emph {et~al.}(2025)\citenamefont {Han},
   \citenamefont {Desrochers},\ and\ \citenamefont {Kim}}]{yrkv-42wd}%
   \BibitemOpen
@@ -694,7 +685,7 @@
   {Esterlis}}, \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Guo}},
   \bibinfo {author} {\bibfnamefont {A.~A.}\ \bibnamefont {Patel}},\ and\
   \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Sachdev}},\ }\bibfield
-  {title} {\bibinfo {title} {Large-$n$ theory of critical {F}ermi surfaces},\
+  {title} {\bibinfo {title} {Large-{$N$} theory of critical {F}ermi surfaces},\
   }\href {https://doi.org/10.1103/PhysRevB.103.235129} {\bibfield  {journal}
   {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {103}},\
   \bibinfo {pages} {235129} (\bibinfo {year} {2021})}\BibitemShut {NoStop}%
@@ -707,9 +698,10 @@
 \bibitem [{\citenamefont {Mahan}(2013)}]{mahan2013many}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.~D.}\ \bibnamefont
-  {Mahan}},\ }\href@noop {} {\emph {\bibinfo {title} {Many-particle physics}}}\
-  (\bibinfo  {publisher} {Springer Science \& Business Media},\ \bibinfo {year}
-  {2013})\BibitemShut {NoStop}%
+  {Mahan}},\ }\href {https://books.google.co.in/books?id=TFDUBwAAQBAJ} {\emph
+  {\bibinfo {title} {Many-Particle Physics}}},\ Physics of Solids and Liquids\
+  (\bibinfo  {publisher} {Springer US},\ \bibinfo {year} {2013})\BibitemShut
+  {NoStop}%
 \bibitem [{\citenamefont {Craig}(1968)}]{craig}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~A.}\ \bibnamefont
